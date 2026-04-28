@@ -1,0 +1,88 @@
+ROUTE: /careers
+URL: http://localhost:8001/#careers
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Build Your Future with GenZova
+Join our growing team and be part of the next wave of digital innovation. We are delivering industry-leading solutions for clients across the globe.
+Why Join GenZova?
+We are delivering industry-leading digital solutions for clients across the globe. Join us and grow your career with real-world projects and cutting-edge technologies.
+Enormous Growth
+Scale your career with real industry projects
+Real Client Projects
+Work on live projects for global clients
+Cutting-Edge Tech
+AI, Cloud, Full Stack and more
+Industry Recognition
+Award-winning team and solutions
+Application Tracking Process
+End-to-end tracking of your application from submission to onboarding. Stay informed at every step.
+Submit Application
+Fill out the form with your personal details, education, skills, and upload your resume.
+Profile Review
+Our HR team reviews your profile, qualifications, and experience within 48 hours.
+Interview Process
+Selected candidates are invited for technical and HR interviews with our team.
+Offer & Selection
+Successful candidates receive an offer letter with role details and compensation.
+Onboarding
+Welcome aboard! Get set up with your team, tools, and start your journey at GenZova.
+Apply Now
+Fill out the form below to apply for a position at GenZova. We'll review your application and get back to you.
+1
+Personal
+2
+Education
+3
+Professional
+4
+Resume
+1
+Personal Details
+Full Name *
+Email Address *
+Phone Number *
+Date of Birth
+City / Location *
+LinkedIn Profile
+Next →
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

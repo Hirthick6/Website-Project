@@ -1,0 +1,19 @@
+{
+  "extractedAt": "2026-04-15T16:48:33.583Z",
+  "siteName": "GenZova",
+  "sources": [
+    "js/services-data.js → services.json",
+    "js/solutions-data.js → solutions.json",
+    "js/app.js (INTERNSHIPS_DATA) → internships.json",
+    "js/app.js (PROFILE_PROJECTS) → profile-projects.json",
+    "js/app.js (SOLUTION_FORM_FIELDS) → solution-form-fields.json",
+    "index.html + js copies → source-snapshot/"
+  ],
+  "counts": {
+    "services": 12,
+    "solutions": 9,
+    "internships": 15,
+    "profileProjects": 30,
+    "solutionFormSlugs": 8
+  }
+}

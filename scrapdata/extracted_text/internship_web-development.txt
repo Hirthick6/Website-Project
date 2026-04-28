@@ -1,0 +1,75 @@
+ROUTE: /internship/web-development
+URL: http://localhost:8001/#internship/web-development
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+← Back to Internships
+Web Development
+Build the web. Master HTML, CSS, JavaScript, and React to create stunning, responsive websites.
+98%
+Website Performance
+High
+Industry Demand
+100%
+Project Success
+Web Development Applications
+Real-world systems you will build with HTML & CSS
+Business Websites
+Build professional websites with responsive layouts and animations. Create SEO-optimized, fast-loading sites with modern design patterns and CMS integration.
+HTML
+CSS
+JavaScript
+Single Page Apps
+Create dynamic SPAs with React, routing, and state management. Implement lazy loading, code splitting, and progressive enhancement for optimal performance.
+React
+Router
+Hooks
+Landing Pages
+Design high-converting landing pages with modern CSS and animations. Build A/B testable pages with analytics tracking, form optimization, and scroll-triggered effects.
+CSS Grid
+Flexbox
+Animations
+Ready to Start Your Web Development Journey?
+Apply now and gain hands-on experience with real projects and industry mentorship.
+Apply Now
+View All Internships
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

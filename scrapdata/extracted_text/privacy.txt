@@ -1,0 +1,45 @@
+ROUTE: /privacy
+URL: http://localhost:8001/#privacy
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

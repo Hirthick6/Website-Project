@@ -1,0 +1,332 @@
+[
+  {
+    "cat": "ai",
+    "title": "Cycle Count Detection System",
+    "desc": "Real-time cycle count detection for manufacturing assembly lines using OpenCV and YOLOv11, enabling automated production monitoring with 99.2% accuracy.",
+    "tags": [
+      "OpenCV",
+      "YOLOv11",
+      "Python",
+      "Manufacturing"
+    ]
+  },
+  {
+    "cat": "ai",
+    "title": "Document Intelligence Platform",
+    "desc": "GenAI-powered document processing for insurance companies — automated claim extraction, policy analysis, and fraud detection using advanced LLM pipelines.",
+    "tags": [
+      "GenAI",
+      "LangChain",
+      "OCR",
+      "Insurance"
+    ]
+  },
+  {
+    "cat": "ai",
+    "title": "Multilingual Sentiment Analyzer",
+    "desc": "NLP-based sentiment analysis engine processing customer reviews in 12 languages with transformer models, delivering real-time brand perception insights.",
+    "tags": [
+      "NLP",
+      "Transformers",
+      "BERT",
+      "Retail"
+    ]
+  },
+  {
+    "cat": "ai",
+    "title": "Defect Detection in Textiles",
+    "desc": "Deep learning visual inspection system using OpenCV and custom CNN models to detect fabric defects on production lines, reducing manual QC effort by 80%.",
+    "tags": [
+      "OpenCV",
+      "Deep Learning",
+      "CNN",
+      "Textile"
+    ]
+  },
+  {
+    "cat": "ai",
+    "title": "AI Claims Assistant for Insurance",
+    "desc": "GenAI-powered virtual assistant for insurance companies — automates claim filing, policy inquiries, premium calculations, and document verification using RAG and fine-tuned LLMs.",
+    "tags": [
+      "GenAI",
+      "RAG",
+      "LLM",
+      "Insurance"
+    ]
+  },
+  {
+    "cat": "ai",
+    "title": "Predictive Maintenance System",
+    "desc": "ML-driven predictive maintenance for manufacturing equipment using sensor data, time-series forecasting, and anomaly detection — reducing downtime by 65%.",
+    "tags": [
+      "Machine Learning",
+      "Time Series",
+      "IoT",
+      "Manufacturing"
+    ]
+  },
+  {
+    "cat": "web",
+    "title": "Booking Platform",
+    "desc": "Online reservation system for service-based businesses with calendar integration, automated notifications, and seamless payment processing.",
+    "tags": [
+      "Vue.js",
+      "Laravel",
+      "MySQL",
+      "Payment Integration"
+    ]
+  },
+  {
+    "cat": "web",
+    "title": "Real Estate Portal",
+    "desc": "Property listing and management platform with virtual tours, mortgage calculators, agent dashboards, and advanced search filters for buyers and sellers.",
+    "tags": [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "Google Maps"
+    ]
+  },
+  {
+    "cat": "web",
+    "title": "Learning Management System",
+    "desc": "Full-featured LMS with course creation, video streaming, quizzes, progress tracking, and certification for educational institutions and corporate training.",
+    "tags": [
+      "Next.js",
+      "Python",
+      "AWS S3",
+      "WebRTC"
+    ]
+  },
+  {
+    "cat": "web",
+    "title": "Job Portal & Recruitment",
+    "desc": "End-to-end recruitment platform with resume parsing, AI-based candidate matching, interview scheduling, and employer analytics dashboards.",
+    "tags": [
+      "Angular",
+      "Django",
+      "Elasticsearch",
+      "Redis"
+    ]
+  },
+  {
+    "cat": "web",
+    "title": "SaaS Dashboard Platform",
+    "desc": "Multi-tenant SaaS analytics dashboard with real-time data visualization, role-based access, custom report builder, and white-label capabilities.",
+    "tags": [
+      "React",
+      "GraphQL",
+      "D3.js",
+      "AWS"
+    ]
+  },
+  {
+    "cat": "web",
+    "title": "Hospital Management System",
+    "desc": "Comprehensive HMS with patient records, appointment scheduling, billing, pharmacy management, and lab report integration for multi-branch hospitals.",
+    "tags": [
+      "MERN Stack",
+      "Socket.io",
+      "MongoDB",
+      "Healthcare"
+    ]
+  },
+  {
+    "cat": "mobile",
+    "title": "Health & Fitness App",
+    "desc": "Mobile application for tracking workouts, nutrition, and health metrics with personalized AI-driven recommendations and wearable device integration.",
+    "tags": [
+      "React Native",
+      "Firebase",
+      "Health APIs",
+      "Wearables"
+    ]
+  },
+  {
+    "cat": "mobile",
+    "title": "Food Delivery App",
+    "desc": "Comprehensive food ordering and delivery application with real-time GPS tracking, multiple payment options, and restaurant management dashboard.",
+    "tags": [
+      "Flutter",
+      "Node.js",
+      "MongoDB",
+      "Google Maps API"
+    ]
+  },
+  {
+    "cat": "mobile",
+    "title": "Ride Sharing Platform",
+    "desc": "On-demand ride-hailing app with driver-rider matching, fare estimation, live tracking, in-app payments, and driver earnings dashboard.",
+    "tags": [
+      "React Native",
+      "Socket.io",
+      "Maps SDK",
+      "Stripe"
+    ]
+  },
+  {
+    "cat": "mobile",
+    "title": "Digital Wallet App",
+    "desc": "Secure mobile wallet with UPI integration, bill payments, money transfers, transaction history, and rewards system for everyday financial transactions.",
+    "tags": [
+      "Flutter",
+      "Firebase",
+      "UPI API",
+      "Biometric Auth"
+    ]
+  },
+  {
+    "cat": "mobile",
+    "title": "EdTech Learning App",
+    "desc": "Interactive mobile learning platform with video courses, live classes, quizzes, progress tracking, and offline content download for students.",
+    "tags": [
+      "Kotlin",
+      "Swift",
+      "WebRTC",
+      "AWS"
+    ]
+  },
+  {
+    "cat": "mobile",
+    "title": "Smart Home Controller",
+    "desc": "IoT-connected mobile app for controlling smart home devices — lights, thermostats, cameras, and locks with voice commands and automation schedules.",
+    "tags": [
+      "Flutter",
+      "MQTT",
+      "IoT",
+      "Voice AI"
+    ]
+  },
+  {
+    "cat": "ecommerce",
+    "title": "Multi-Vendor Marketplace",
+    "desc": "Full-featured multi-vendor e-commerce marketplace with vendor dashboards, commission management, product reviews, and automated order fulfillment.",
+    "tags": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Razorpay"
+    ]
+  },
+  {
+    "cat": "ecommerce",
+    "title": "Fashion E-commerce Store",
+    "desc": "Premium fashion retail platform with virtual try-on, size recommendation AI, wishlist, loyalty points, and seamless checkout experience.",
+    "tags": [
+      "Next.js",
+      "Stripe",
+      "Cloudinary",
+      "AI Sizing"
+    ]
+  },
+  {
+    "cat": "ecommerce",
+    "title": "Grocery Delivery Platform",
+    "desc": "Online grocery ordering system with real-time inventory sync, delivery slot management, subscription boxes, and route-optimized delivery logistics.",
+    "tags": [
+      "React",
+      "Django",
+      "PostgreSQL",
+      "Maps API"
+    ]
+  },
+  {
+    "cat": "ecommerce",
+    "title": "B2B Wholesale Portal",
+    "desc": "Business-to-business wholesale platform with bulk pricing, credit management, purchase orders, and integrated logistics for distributors and retailers.",
+    "tags": [
+      "Angular",
+      "Java Spring",
+      "MySQL",
+      "ERP Integration"
+    ]
+  },
+  {
+    "cat": "ecommerce",
+    "title": "Pharmacy E-commerce",
+    "desc": "Online pharmacy with prescription upload, medicine search, auto-refill reminders, doctor consultation booking, and doorstep delivery tracking.",
+    "tags": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Twilio"
+    ]
+  },
+  {
+    "cat": "ecommerce",
+    "title": "Auction & Bidding Platform",
+    "desc": "Real-time auction platform with live bidding, countdown timers, escrow payments, seller verification, and automated winner notifications.",
+    "tags": [
+      "Vue.js",
+      "Socket.io",
+      "Redis",
+      "Payment Gateway"
+    ]
+  },
+  {
+    "cat": "enterprise",
+    "title": "CRM System",
+    "desc": "Custom CRM with sales automation, customer support ticketing, pipeline analytics, and team collaboration tools for enterprise clients.",
+    "tags": [
+      "Angular",
+      ".NET Core",
+      "SQL Server",
+      "Azure"
+    ]
+  },
+  {
+    "cat": "enterprise",
+    "title": "ERP Solution",
+    "desc": "Enterprise Resource Planning system integrating HR, finance, inventory, procurement, and manufacturing modules for mid-to-large scale organizations.",
+    "tags": [
+      "React",
+      "Java Spring",
+      "PostgreSQL",
+      "Microservices"
+    ]
+  },
+  {
+    "cat": "enterprise",
+    "title": "Supply Chain Management",
+    "desc": "End-to-end supply chain platform with vendor management, purchase orders, warehouse tracking, logistics optimization, and real-time shipment monitoring.",
+    "tags": [
+      "React",
+      "Python",
+      "MongoDB",
+      "IoT Sensors"
+    ]
+  },
+  {
+    "cat": "enterprise",
+    "title": "Payroll & HR Management",
+    "desc": "Automated payroll processing with attendance tracking, leave management, tax calculations, employee self-service portal, and compliance reporting.",
+    "tags": [
+      "Angular",
+      "Node.js",
+      "MySQL",
+      "AWS"
+    ]
+  },
+  {
+    "cat": "enterprise",
+    "title": "Compliance & Audit System",
+    "desc": "Regulatory compliance management platform with automated audit trails, risk assessment, document control, and real-time compliance dashboards.",
+    "tags": [
+      "React",
+      ".NET Core",
+      "SQL Server",
+      "Power BI"
+    ]
+  },
+  {
+    "cat": "enterprise",
+    "title": "Business Intelligence Dashboard",
+    "desc": "Real-time BI dashboard aggregating data from multiple sources with custom KPIs, predictive analytics, automated reports, and executive summary views.",
+    "tags": [
+      "React",
+      "Python",
+      "D3.js",
+      "Machine Learning"
+    ]
+  }
+]

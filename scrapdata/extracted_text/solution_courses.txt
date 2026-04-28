@@ -1,0 +1,72 @@
+ROUTE: /solution/courses
+URL: http://localhost:8001/#solution/courses
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+← Back to Home
+Course Recommendations
+Curated Learning Paths and Course Recommendations to Accelerate Your Tech Career
+Our Course Recommendations Services
+Comprehensive solutions tailored to your specific needs
+Self-Paced Courses
+Learn at your own pace with recorded video lectures, hands-on assignments, and project-based learning.
+Video Lectures
+Hands-On Labs
+Assignments
+Lifetime Access
+Live Bootcamps
+Intensive live bootcamps with expert instructors, real-time doubt clearing, and peer collaboration.
+Live Sessions
+Expert Mentors
+Group Projects
+Job Assistance
+Certification Programs
+Industry-recognized certification programs in AI, cloud, full-stack, and digital marketing.
+Industry Certified
+Exam Preparation
+Practice Tests
+Career Guidance
+Ready to Get Started?
+Let's discuss how GenZova can help transform your business with our course recommendations solutions.
+Contact Us
+Back to Home
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

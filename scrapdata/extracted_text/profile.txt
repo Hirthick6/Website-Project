@@ -1,0 +1,130 @@
+ROUTE: /profile
+URL: http://localhost:8001/#profile
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+Company Profile
+Discover GenZova's vision, expertise, and track record of success
+WELCOME TO GENZOVA SOFTWARE SOLUTIONS
+We transform innovative ideas into powerful digital solutions that drive business growth and create exceptional user experiences.
+213+
+Projects Completed
+4+
+Years of Experience
+213+
+Happy Clients
+0+
+Service Domains
+0+
+Industry Awards
+0+
+Internships Provided
+Our Projects
+Explore our diverse portfolio of successful projects across various industries and technologies.
+Web Development
+Mobile Apps
+E-commerce
+Enterprise Solutions
+AI & ML
+Booking Platform
+Online reservation system for service-based businesses with calendar integration, automated notifications, and seamless payment processing.
+Vue.js
+Laravel
+MySQL
+Payment Integration
+Real Estate Portal
+Property listing and management platform with virtual tours, mortgage calculators, agent dashboards, and advanced search filters for buyers and sellers.
+React
+Node.js
+PostgreSQL
+Google Maps
+Learning Management System
+Full-featured LMS with course creation, video streaming, quizzes, progress tracking, and certification for educational institutions and corporate training.
+Next.js
+Python
+AWS S3
+WebRTC
+Job Portal & Recruitment
+End-to-end recruitment platform with resume parsing, AI-based candidate matching, interview scheduling, and employer analytics dashboards.
+Angular
+Django
+Elasticsearch
+Redis
+SaaS Dashboard Platform
+Multi-tenant SaaS analytics dashboard with real-time data visualization, role-based access, custom report builder, and white-label capabilities.
+React
+GraphQL
+D3.js
+AWS
+Hospital Management System
+Comprehensive HMS with patient records, appointment scheduling, billing, pharmacy management, and lab report integration for multi-branch hospitals.
+MERN Stack
+Socket.io
+MongoDB
+Healthcare
+Our Services
+Web Development
+Custom web applications and responsive websites built with modern technologies and frameworks for optimal performance.
+Mobile App Development
+Native and cross-platform mobile applications for iOS and Android with seamless user experiences and robust functionality.
+E-commerce Solutions
+Complete online store development with payment integration, inventory management, analytics, and marketing tools.
+Cloud Solutions
+Scalable cloud infrastructure, migration services, and cloud-native application development for modern businesses.
+Custom Software
+Tailored software solutions designed to meet specific business requirements and optimize workflows for maximum efficiency.
+AI & Machine Learning
+Intelligent solutions powered by artificial intelligence and machine learning to automate processes and gain actionable insights.
+What Our Clients Say
+GenZova Software Solutions transformed our business with their custom CRM system. The team was professional, responsive, and delivered beyond our expectations. Our sales process has become 40% more efficient since implementation. Truly exceptional partnership.
+Ganesh
+Probex, London,UK
+The AI integration developed by GenZova has significantly improved our operational efficiency and customer engagement. The intelligent automation is seamless, and the analytics provide valuable insights into business performance and growth opportunities.
+Sabarinathan
+Gateway Software Solutions,Chennai, Tamil Nadu, India
+We partnered with GenZova for our e-commerce platform migration, and the results have been outstanding. The new system is faster, more secure, and has already increased our conversion rate by 25%. Their ongoing support makes them reliable technology partner. Highly recommended team.
+Rohan Mehta
+PwC, Bengaluru, Karnataka, India
+Ready to Start Your Project?
+Let's discuss how we can help transform your digital presence and achieve your business goals.
+Get in Touch
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

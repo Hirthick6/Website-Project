@@ -1,0 +1,42 @@
+{
+  "client-projects": {
+    "title": "Get a Project Quote",
+    "subtitle": "Tell us about your project and we'll provide a detailed estimate.",
+    "fields": "<div class=\"form-group\"><label for=\"sol-enq-company\">Company / Organization <span style=\"color:#ef4444;\">*</span></label><input type=\"text\" id=\"sol-enq-company\" placeholder=\"Your company name\" required></div><div class=\"grid-2\"><div class=\"form-group\"><label for=\"sol-enq-extra1\">Estimated Budget</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>Under ₹20,000</option><option>₹20,000 – ₹50,000</option><option>₹50,000 – ₹1,00,000</option><option>Above ₹1,00,000</option></select></div><div class=\"form-group\"><label for=\"sol-enq-extra2\">Project Timeline</label><select id=\"sol-enq-extra2\"><option value=\"\">Select</option><option>1–2 Weeks</option><option>3–4 Weeks</option><option>1–2 Months</option><option>4+ Months</option></select></div></div>"
+  },
+  "corporate-training": {
+    "title": "Enquire About Training",
+    "subtitle": "Fill in your details and our training team will contact you within 24 hours.",
+    "fields": "<div class=\"form-group\"><label for=\"sol-enq-company\">Company / Organization <span style=\"color:#ef4444;\">*</span></label><input type=\"text\" id=\"sol-enq-company\" placeholder=\"Your company name\" required></div><div class=\"grid-2\"><div class=\"form-group\"><label for=\"sol-enq-extra1\">Team Size</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>1–5</option><option>6–15</option><option>16–30</option><option>31–50</option><option>50+</option></select></div><div class=\"form-group\"><label for=\"sol-enq-extra2\">Interested Course</label><select id=\"sol-enq-extra2\"><option value=\"\">Select</option><option>Programming Languages</option><option>Software Development</option><option>Web Development</option><option>Mobile App Development</option><option>AI &amp; Data Science</option><option>AI for Business</option><option>Cloud Computing</option><option>DevOps</option><option>3D Game Development</option><option>Custom / Multiple</option></select></div></div>"
+  },
+  "academic-projects": {
+    "title": "Get Academic Project Support",
+    "subtitle": "Share your requirements and we'll help with your academic project.",
+    "fields": "<div class=\"grid-2\"><div class=\"form-group\"><label for=\"sol-enq-company\">College / University <span style=\"color:#ef4444;\">*</span></label><input type=\"text\" id=\"sol-enq-company\" placeholder=\"Your college name\" required></div><div class=\"form-group\"><label for=\"sol-enq-extra1\">Degree</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>B.Tech / B.E.</option><option>M.Tech / M.E.</option><option>MCA</option><option>BCA</option><option>MBA</option><option>Diploma</option><option>Ph.D.</option></select></div></div><div class=\"form-group\"><label for=\"sol-enq-extra2\">Preferred Technology</label><select id=\"sol-enq-extra2\"><option value=\"\">Select</option><option>AI / Machine Learning</option><option>Web Development</option><option>Mobile App</option><option>IoT / Embedded</option><option>Data Science</option><option>Cloud Computing</option><option>Other</option></select></div>"
+  },
+  "ai-automation": {
+    "title": "Get an AI Solution Quote",
+    "subtitle": "Tell us about your AI requirements.",
+    "fields": "<div class=\"form-group\"><label for=\"sol-enq-company\">Company / Organization <span style=\"color:#ef4444;\">*</span></label><input type=\"text\" id=\"sol-enq-company\" placeholder=\"Your company name\" required></div><div class=\"grid-2\"><div class=\"form-group\"><label for=\"sol-enq-extra1\">AI Solution Type</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>Conversational AI / Chatbot</option><option>Process Automation</option><option>Predictive Analytics</option><option>Computer Vision</option><option>NLP Solutions</option><option>Custom AI Agent</option></select></div><div class=\"form-group\"><label for=\"sol-enq-extra2\">Industry</label><select id=\"sol-enq-extra2\"><option value=\"\">Select</option><option>Healthcare</option><option>Finance</option><option>E-Commerce</option><option>Manufacturing</option><option>Education</option><option>Other</option></select></div></div>"
+  },
+  "internship-programs": {
+    "title": "Apply for Internship",
+    "subtitle": "Start your tech career journey with GenZova.",
+    "fields": "<div class=\"grid-2\"><div class=\"form-group\"><label for=\"sol-enq-company\">College / University</label><input type=\"text\" id=\"sol-enq-company\" placeholder=\"Your college name\"></div><div class=\"form-group\"><label for=\"sol-enq-extra1\">Current Education</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>B.Tech / B.E.</option><option>MCA / BCA</option><option>Diploma</option><option>Graduate</option><option>Career Switcher</option></select></div></div><div class=\"form-group\"><label for=\"sol-enq-extra2\">Internship Track</label><select id=\"sol-enq-extra2\"><option value=\"\">Select</option><option>AI &amp; Machine Learning</option><option>Full Stack Development</option><option>Mobile App Development</option><option>Cloud &amp; DevOps</option><option>Data Science</option><option>UI/UX Design</option></select></div>"
+  },
+  "website-development": {
+    "title": "Get a Website Quote",
+    "subtitle": "Tell us about your website needs.",
+    "fields": "<div class=\"form-group\"><label for=\"sol-enq-company\">Company / Business Name <span style=\"color:#ef4444;\">*</span></label><input type=\"text\" id=\"sol-enq-company\" placeholder=\"Your business name\" required></div><div class=\"grid-2\"><div class=\"form-group\"><label for=\"sol-enq-extra1\">Website Type</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>Business Website</option><option>E-Commerce Store</option><option>Web Application</option><option>Portfolio</option><option>Landing Page</option></select></div><div class=\"form-group\"><label for=\"sol-enq-extra2\">Timeline</label><select id=\"sol-enq-extra2\"><option value=\"\">Select</option><option>2–3 Weeks</option><option>4–6 Weeks</option><option>6–10 Weeks</option><option>Flexible</option></select></div></div>"
+  },
+  "all-services": {
+    "title": "Get a Service Quote",
+    "subtitle": "Tell us which services you need.",
+    "fields": "<div class=\"form-group\"><label for=\"sol-enq-company\">Company / Organization <span style=\"color:#ef4444;\">*</span></label><input type=\"text\" id=\"sol-enq-company\" placeholder=\"Your company name\" required></div><div class=\"form-group\"><label for=\"sol-enq-extra1\">Service Interested In</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>Software Development</option><option>AI &amp; Data Solutions</option><option>Digital Marketing</option><option>SEO</option><option>UI/UX Design</option><option>E-Commerce</option><option>Cloud &amp; DevOps</option><option>Multiple Services</option></select></div>"
+  },
+  "courses": {
+    "title": "Enroll in a Course",
+    "subtitle": "Share your details and we'll help you pick the right learning path.",
+    "fields": "<div class=\"grid-2\"><div class=\"form-group\"><label for=\"sol-enq-extra1\">Experience Level</label><select id=\"sol-enq-extra1\"><option value=\"\">Select</option><option>Beginner</option><option>Intermediate</option><option>Advanced</option></select></div><div class=\"form-group\"><label for=\"sol-enq-extra2\">Area of Interest</label><select id=\"sol-enq-extra2\"><option value=\"\">Select</option><option>Programming</option><option>Web Development</option><option>Mobile Development</option><option>AI &amp; Data Science</option><option>Cloud Computing</option><option>Digital Marketing</option></select></div></div>"
+  }
+}

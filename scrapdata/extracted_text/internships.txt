@@ -1,0 +1,73 @@
+ROUTE: /internships
+URL: http://localhost:8001/#internships
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+Internships
+Launch your tech career with hands-on, project-based internships. Learn from industry mentors, build real projects, and gain the skills employers look for.
+Our Internship Programs
+15 focused tracks designed to take you from learner to job-ready. Each program includes live mentorship and real deliverables.
+Artificial Intelligence Internship
+Explore the core of AI from machine learning algorithms and neural networks to natural language processing and build predictive models and systems.
+Machine Learning
+Deep Learning
+NLP
+OpenCV
+Course Structure
+Apply Now
+Cloud Computing Internship
+Get hands-on with cloud infrastructure, deployment pipelines, and scalable architecture. Work with AWS and Azure services, containerization, and CI/CD workflows.
+AWS
+Azure
+Cloud Deployment
+DevOps Basics
+Course Structure
+Apply Now
+MERN Stack Development Internship
+Build modern web apps with the MERN stack. Learn MongoDB for data, Express and Node for the server, and React for dynamic, responsive front-ends.
+MongoDB
+Express.js
+React
+Node.js
+Course Structure
+Apply Now
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

@@ -1,0 +1,75 @@
+ROUTE: /internship/ui-ux-design
+URL: http://localhost:8001/#internship/ui-ux-design
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+← Back to Internships
+UI/UX Design
+Design experiences people love. Master user research, wireframing, and interactive prototyping.
+97%
+User Satisfaction
+High
+Design Demand
+96%
+Usability Score
+UI/UX Design Applications
+Real-world systems you will build with Figma & Wireframing
+Mobile App Design
+Design complete mobile app interfaces with user flows and interactions. Create pixel-perfect mockups with micro-interactions, gesture patterns, and accessibility compliance.
+Figma
+Mobile UI
+Prototyping
+Website Redesign
+Redesign existing websites with improved usability and aesthetics. Conduct UX audits, implement design systems, and optimize conversion funnels.
+Wireframes
+UI Audit
+Design System
+Design System
+Create a reusable component library with tokens and guidelines. Build scalable design foundations with documentation, versioning, and developer handoff specs.
+Components
+Tokens
+Documentation
+Ready to Start Your UI/UX Design Journey?
+Apply now and gain hands-on experience with real projects and industry mentorship.
+Apply Now
+View All Internships
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

@@ -1,0 +1,75 @@
+ROUTE: /internship/full-stack
+URL: http://localhost:8001/#internship/full-stack
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+← Back to Internships
+Full Stack Development
+Own the entire stack. Build, deploy, and maintain complete web applications from scratch.
+98%
+Project Completion
+High
+Industry Demand
+97%
+Code Efficiency
+Full Stack Development Applications
+Real-world systems you will build with React & Node.js
+SaaS Dashboard
+Build a subscription-based analytics dashboard with charts and reports. Integrate real-time data streaming, custom widgets, and multi-tenant architecture.
+React
+Node.js
+PostgreSQL
+Marketplace Platform
+Create a multi-vendor marketplace with payments and reviews. Implement escrow payments, dispute resolution, and seller performance analytics.
+Stripe
+REST API
+Auth
+CMS System
+Develop a content management system with role-based access. Build a plugin architecture, media library, and headless API for multi-channel publishing.
+RBAC
+CRUD
+File Upload
+Ready to Start Your Full Stack Development Journey?
+Apply now and gain hands-on experience with real projects and industry mentorship.
+Apply Now
+View All Internships
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

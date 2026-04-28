@@ -1,0 +1,75 @@
+ROUTE: /internship/mobile-app
+URL: http://localhost:8001/#internship/mobile-app
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+← Back to Internships
+Mobile Application Development
+Build apps for billions of users. Master cross-platform mobile development for iOS and Android.
+97%
+App Success Rate
+High
+Industry Demand
+96%
+User Retention
+Mobile Application Development Applications
+Real-world systems you will build with React Native & Flutter
+Social App
+Build a social networking app with feeds, messaging, and notifications. Implement stories, live streaming, content moderation, and engagement analytics.
+React Native
+Firebase
+Push Notifications
+Fitness Tracker
+Create a health app with step counting, goals, and charts. Integrate wearable device sync, meal planning, workout routines, and progress sharing.
+Flutter
+Device Sensors
+Charts
+Food Delivery App
+Develop a delivery app with maps, orders, and real-time tracking. Build driver assignment algorithms, estimated delivery times, and rating systems.
+Maps API
+Geolocation
+Payments
+Ready to Start Your Mobile Application Development Journey?
+Apply now and gain hands-on experience with real projects and industry mentorship.
+Apply Now
+View All Internships
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

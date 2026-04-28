@@ -1,0 +1,1810 @@
+[
+  {
+    "name": "Artificial Intelligence",
+    "slug": "artificial-intelligence",
+    "image": "images/ai.png",
+    "skills": "Machine Learning, Deep Learning, NLP, OpenCV",
+    "description": "Explore the core of AI from machine learning algorithms and neural networks to natural language processing and build predictive models and systems.",
+    "tagline": "Master AI technologies. Build intelligent systems that learn, adapt, and solve real-world problems.",
+    "stats": [
+      {
+        "label": "Model Accuracy",
+        "value": "98%"
+      },
+      {
+        "label": "Global Demand",
+        "value": "High"
+      },
+      {
+        "label": "Learning Efficiency",
+        "value": "97%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Chatbot Development",
+        "desc": "Build conversational AI assistants using NLP and transformer models. Deploy production-ready chatbots that handle thousands of concurrent users with context-aware responses.",
+        "tags": [
+          "NLP",
+          "Transformers",
+          "API Integration"
+        ]
+      },
+      {
+        "title": "Image Recognition",
+        "desc": "Create computer vision systems for object detection and classification. Implement real-time video analysis pipelines for industrial quality control and security surveillance.",
+        "tags": [
+          "OpenCV",
+          "CNN",
+          "Image Processing"
+        ]
+      },
+      {
+        "title": "Recommendation Systems",
+        "desc": "Develop personalized recommendation engines for e-commerce and media. Build hybrid filtering systems that combine collaborative and content-based approaches for maximum accuracy.",
+        "tags": [
+          "Collaborative Filtering",
+          "ML Models",
+          "Data Pipelines"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Python Programming",
+        "desc": "Core Python, OOP, Data Structures, Algorithms. Build robust applications with clean architecture and efficient memory management. Master list comprehensions, generators, decorators, and context managers for production-grade code.",
+        "tags": [
+          {
+            "name": "Python",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          },
+          {
+            "name": "OOP",
+            "logo": "https://img.icons8.com/color/48/code.png"
+          }
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "title": "Machine Learning",
+        "desc": "Supervised, Unsupervised Learning, Scikit-learn, XGBoost. Train classification, regression, and clustering models on real-world datasets. Implement feature engineering, cross-validation, hyperparameter tuning, and model deployment pipelines.",
+        "tags": [
+          {
+            "name": "Scikit-learn",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+          },
+          {
+            "name": "XGBoost",
+            "logo": "https://raw.githubusercontent.com/dmlc/dmlc.github.io/master/img/logo-m/xgboost.png"
+          }
+        ],
+        "image": "images/ml.png"
+      },
+      {
+        "title": "Deep Learning",
+        "desc": "Neural Networks, CNNs, RNNs, TensorFlow, PyTorch. Design and train deep architectures for image recognition, sequence modeling, and generative tasks. Master GPU-accelerated training, model optimization, and transfer learning techniques.",
+        "tags": [
+          {
+            "name": "TensorFlow",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+          },
+          {
+            "name": "PyTorch",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+          }
+        ],
+        "image": "images/dl.png"
+      },
+      {
+        "title": "NLP & Computer Vision",
+        "desc": "Text processing, Sentiment Analysis, OpenCV, YOLO. Build end-to-end NLP pipelines with tokenization, embeddings, and transformer architectures. Implement real-time object detection, face recognition, and OCR systems for production use.",
+        "tags": [
+          {
+            "name": "NLP",
+            "logo": "https://img.icons8.com/color/48/chat.png"
+          },
+          {
+            "name": "OpenCV",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+          }
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Real-time Sentiment Engine",
+        "desc": "Build a production sentiment analysis pipeline processing live Twitter streams with BERT, visualizing brand perception shifts in real-time dashboards",
+        "tags": [
+          "BERT",
+          "Streaming",
+          "Dashboard"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Medical Image Diagnosis System",
+        "desc": "Train a deep CNN to detect anomalies in X-ray and MRI scans with 97%+ accuracy using transfer learning and explainable AI techniques",
+        "tags": [
+          "TensorFlow",
+          "Transfer Learning",
+          "XAI"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Autonomous AI Research Agent",
+        "desc": "Develop a multi-modal AI agent that reads research papers, extracts insights, generates summaries, and answers complex domain questions",
+        "tags": [
+          "PyTorch",
+          "Transformers",
+          "RAG"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Computing",
+    "slug": "cloud-computing",
+    "image": "images/CloudComputing.jpeg",
+    "skills": "AWS, Azure, Cloud Deployment, DevOps Basics",
+    "description": "Get hands-on with cloud infrastructure, deployment pipelines, and scalable architecture. Work with AWS and Azure services, containerization, and CI/CD workflows.",
+    "tagline": "Build and deploy scalable cloud infrastructure. Master the platforms powering modern applications.",
+    "stats": [
+      {
+        "label": "Deployment Success",
+        "value": "98%"
+      },
+      {
+        "label": "Enterprise Usage",
+        "value": "Global"
+      },
+      {
+        "label": "System Reliability",
+        "value": "97%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Cloud-Native Apps",
+        "desc": "Deploy microservices-based applications on AWS and Azure. Architect highly available systems with auto-scaling, load balancing, and multi-region failover strategies.",
+        "tags": [
+          "EC2",
+          "Lambda",
+          "S3"
+        ]
+      },
+      {
+        "title": "CI/CD Pipelines",
+        "desc": "Automate build, test, and deployment workflows. Implement zero-downtime deployment strategies and canary release patterns. Monitor performance, ensure continuous integration & delivery.",
+        "tags": [
+          "GitHub Actions",
+          "Jenkins",
+          "Docker"
+        ]
+      },
+      {
+        "title": "Infrastructure as Code",
+        "desc": "Manage cloud resources with Terraform and CloudFormation. Build reusable infrastructure modules that provision entire environments in minutes.",
+        "tags": [
+          "Terraform",
+          "IaC",
+          "Automation"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "AWS Services",
+        "desc": "EC2, S3, Lambda, RDS, CloudFront. Deploy scalable compute instances, serverless functions, and managed databases on the world's leading cloud platform. Configure VPCs, security groups, IAM roles, and auto-scaling policies for enterprise workloads.",
+        "tags": [
+          {
+            "name": "EC2",
+            "logo": "https://img.icons8.com/color/48/amazon-web-services.png"
+          }
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+      },
+      {
+        "title": "Azure Services",
+        "desc": "App Service, Blob Storage, Functions, DevOps. Build and deploy applications using Microsoft's cloud ecosystem with integrated CI/CD pipelines. Leverage Azure Active Directory, Cosmos DB, and Logic Apps for enterprise-grade solutions.",
+        "tags": [
+          {
+            "name": "Azure",
+            "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+          },
+          {
+            "name": "DevOps",
+            "logo": "https://img.icons8.com/color/48/infinity.png"
+          }
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
+      },
+      {
+        "title": "Containerization",
+        "desc": "Docker, Kubernetes, Container Orchestration. Package applications into portable containers and orchestrate them at scale across clusters. Master pod management, service mesh, Helm charts, and rolling deployment strategies. Implement scalable infrastructure.",
+        "tags": [
+          "Docker",
+          "K8s"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      },
+      {
+        "title": "DevOps Tools",
+        "desc": "CI/CD, Monitoring, Logging, Infrastructure as Code. Automate the entire software delivery lifecycle from code commit to production deployment. Implement observability with Prometheus, Grafana, ELK stack, and alerting systems.",
+        "tags": [
+          "Terraform",
+          "Jenkins"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Multi-Region Auto-Scaling Platform",
+        "desc": "Deploy a fault-tolerant microservices architecture across AWS regions with auto-scaling, load balancing, and zero-downtime deployments",
+        "tags": [
+          "AWS",
+          "Terraform"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Kubernetes CI/CD Pipeline",
+        "desc": "Build a production-grade CI/CD pipeline with GitHub Actions, Docker, and Kubernetes that auto-deploys, runs tests, and rolls back on failure",
+        "tags": [
+          "K8s",
+          "Docker",
+          "CI/CD"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Serverless Data Lake Architecture",
+        "desc": "Design a serverless data lake on AWS with Lambda, S3, Glue, and Athena processing millions of events daily with real-time analytics",
+        "tags": [
+          "Lambda",
+          "Glue",
+          "Athena"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "MERN Stack Development",
+    "slug": "mern-stack",
+    "image": "images/mernstack.png",
+    "skills": "MongoDB, Express.js, React, Node.js",
+    "description": "Build modern web apps with the MERN stack. Learn MongoDB for data, Express and Node for the server, and React for dynamic, responsive front-ends.",
+    "tagline": "Master the most popular JavaScript stack. Build full-featured web applications end-to-end.",
+    "stats": [
+      {
+        "label": "App Performance",
+        "value": "98%"
+      },
+      {
+        "label": "Startup Demand",
+        "value": "High"
+      },
+      {
+        "label": "Deployment Success",
+        "value": "97%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Social Media Platform",
+        "desc": "Build a full-featured social app with posts, likes, and real-time chat. Implement infinite scroll feeds, notification systems, and content moderation with AI.",
+        "tags": [
+          "React",
+          "Socket.io",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project Management Tool",
+        "desc": "Create a Trello-like board with drag-and-drop and team collaboration. Add real-time updates, file attachments, activity logs, and Gantt chart views.",
+        "tags": [
+          "React DnD",
+          "Express",
+          "JWT"
+        ]
+      },
+      {
+        "title": "E-learning Platform",
+        "desc": "Develop a course platform with video streaming and progress tracking. Include quiz engines, certificate generation, and instructor analytics dashboards.",
+        "tags": [
+          "Node.js",
+          "MongoDB",
+          "React"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "MongoDB",
+        "desc": "NoSQL Database, Mongoose ODM, Aggregation. Design flexible document schemas and build complex queries with the aggregation framework. Implement indexing strategies, data validation, transactions, and replica sets for high-availability applications.",
+        "tags": [
+          "MongoDB",
+          "Mongoose"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+      },
+      {
+        "title": "Express.js",
+        "desc": "REST APIs, Middleware, Authentication. Build scalable server-side applications with routing, error handling, and security middleware. Implement JWT authentication, rate limiting, CORS policies, and API versioning for production APIs.",
+        "tags": [
+          "Express",
+          "JWT"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+      },
+      {
+        "title": "React",
+        "desc": "Components, Hooks, State Management, Router. Create dynamic, responsive user interfaces with reusable component architecture. Master Context API, Redux Toolkit, React Query, lazy loading, and performance optimization techniques for modern scalable frontend development.",
+        "tags": [
+          "React",
+          "Redux"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        "title": "Node.js",
+        "desc": "Server-side JS, NPM, File System, Streams. Build high-performance backend services with event-driven, non-blocking I/O architecture. Handle file uploads, WebSocket connections, worker threads, and microservice communication patterns.",
+        "tags": [
+          "Node.js",
+          "NPM"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Real-time Collaboration Platform",
+        "desc": "Build a Notion-like workspace with real-time collaborative editing, WebSocket sync, role-based access, and a rich text editor",
+        "tags": [
+          "React",
+          "Socket.io"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "AI-Powered Job Board",
+        "desc": "Create a job marketplace with AI-driven resume parsing, skill matching algorithms, and real-time chat between recruiters and candidates",
+        "tags": [
+          "MongoDB",
+          "NLP"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Video Streaming Platform",
+        "desc": "Develop a Netflix-style platform with adaptive bitrate streaming, recommendation engine, subscription billing, and content management",
+        "tags": [
+          "Node.js",
+          "FFmpeg"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Full Stack Development",
+    "slug": "full-stack",
+    "image": "images/fullstack.jpg",
+    "skills": "React, Node.js, Databases, REST APIs",
+    "description": "Become a developer front-end to back-end. Build full-stack applications with React, Node.js, databases, and deploy production-ready projects.",
+    "tagline": "Own the entire stack. Build, deploy, and maintain complete web applications from scratch.",
+    "stats": [
+      {
+        "label": "Project Completion",
+        "value": "98%"
+      },
+      {
+        "label": "Industry Demand",
+        "value": "High"
+      },
+      {
+        "label": "Code Efficiency",
+        "value": "97%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "SaaS Dashboard",
+        "desc": "Build a subscription-based analytics dashboard with charts and reports. Integrate real-time data streaming, custom widgets, and multi-tenant architecture.",
+        "tags": [
+          "React",
+          "Node.js",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Marketplace Platform",
+        "desc": "Create a multi-vendor marketplace with payments and reviews. Implement escrow payments, dispute resolution, and seller performance analytics.",
+        "tags": [
+          "Stripe",
+          "REST API",
+          "Auth"
+        ]
+      },
+      {
+        "title": "CMS System",
+        "desc": "Develop a content management system with role-based access. Build a plugin architecture, media library, and headless API for multi-channel publishing.",
+        "tags": [
+          "RBAC",
+          "CRUD",
+          "File Upload"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Frontend",
+        "desc": "React, TypeScript, Tailwind CSS, State Management. Build pixel-perfect, responsive interfaces with type-safe component architecture. Implement design systems, accessibility standards, animation libraries, and progressive web app features.",
+        "tags": [
+          "React",
+          "TypeScript"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        "title": "Backend",
+        "desc": "Node.js, Express, REST APIs, GraphQL. Design scalable server architectures with clean separation of concerns and modular patterns. Build real-time APIs with WebSockets, implement caching strategies, and create GraphQL resolvers with data loaders.",
+        "tags": [
+          "Node.js",
+          "GraphQL"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+      },
+      {
+        "title": "Databases",
+        "desc": "PostgreSQL, MongoDB, Redis, ORM/ODM. Master relational and NoSQL database design with advanced query optimization techniques. Implement caching layers, database migrations, connection pooling, and data replication strategies.",
+        "tags": [
+          "PostgreSQL",
+          "MongoDB"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+      },
+      {
+        "title": "Deployment",
+        "desc": "Docker, CI/CD, Cloud Hosting, Nginx. Containerize applications and automate deployment pipelines for zero-downtime releases. Configure reverse proxies, SSL certificates, load balancers, and monitoring dashboards for production environments.",
+        "tags": [
+          "Docker",
+          "CI/CD"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Multi-Tenant SaaS Dashboard",
+        "desc": "Build a subscription-based analytics SaaS with tenant isolation, Stripe billing, role-based access, and interactive data visualization",
+        "tags": [
+          "React",
+          "PostgreSQL"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Headless CMS with GraphQL",
+        "desc": "Create a headless content management system with GraphQL API, media pipeline, webhook integrations, and a React admin panel",
+        "tags": [
+          "GraphQL",
+          "Docker"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Real-time Marketplace Platform",
+        "desc": "Develop a multi-vendor marketplace with live bidding, payment escrow, review system, geolocation search, and admin analytics",
+        "tags": [
+          "WebSocket",
+          "Stripe"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Generative AI Development",
+    "slug": "generative-ai",
+    "image": "images/ai&devlopment.png",
+    "skills": "Python, LangChain, LLMs, API Integration",
+    "description": "Build intelligent AI agents that automate workflows, integrate APIs, and reason over data. Learn LangChain, prompt engineering, and autonomous task execution.",
+    "tagline": "Build the future of AI. Create intelligent agents, chatbots, and generative applications.",
+    "stats": [
+      {
+        "label": "Automation Accuracy",
+        "value": "97%"
+      },
+      {
+        "label": "Industry Demand",
+        "value": "High"
+      },
+      {
+        "label": "Task Efficiency",
+        "value": "96%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Custom AI Chatbot",
+        "desc": "Build a domain-specific chatbot with RAG and knowledge bases. Create intelligent assistants that understand context, cite sources, and learn from user feedback.",
+        "tags": [
+          "LangChain",
+          "RAG",
+          "Vector DB"
+        ]
+      },
+      {
+        "title": "Content Generator",
+        "desc": "Create an AI-powered content creation tool for blogs and marketing. Build multi-format generators with brand voice consistency and SEO optimization.",
+        "tags": [
+          "GPT API",
+          "Prompt Engineering",
+          "Streaming"
+        ]
+      },
+      {
+        "title": "Autonomous Agent",
+        "desc": "Develop an AI agent that can browse, research, and execute tasks. Implement tool-use patterns, planning algorithms, and self-correcting execution loops.",
+        "tags": [
+          "CrewAI",
+          "Tool Use",
+          "Planning"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "LLM Fundamentals",
+        "desc": "Transformers, Attention, Tokenization, Fine-tuning. Understand the architecture behind GPT, BERT, and modern language models from the ground up. Learn prompt engineering, few-shot learning, RLHF, and model evaluation metrics for production AI systems.",
+        "tags": [
+          "LLMs",
+          "GPT"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+      },
+      {
+        "title": "LangChain & Frameworks",
+        "desc": "Chains, Agents, Memory, Tools, RAG Pipelines. Build sophisticated AI applications by chaining LLM calls with external tools and data sources. Implement conversation memory, multi-step reasoning, tool selection, and fallback strategies for reliable agents.",
+        "tags": [
+          "LangChain",
+          "RAG"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      },
+      {
+        "title": "Vector Databases",
+        "desc": "Embeddings, Pinecone, ChromaDB, Semantic Search. Store and retrieve high-dimensional vectors for similarity search across millions of documents. Build hybrid search systems combining keyword and semantic matching with metadata filtering and re-ranking.",
+        "tags": [
+          "Pinecone",
+          "ChromaDB"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+      },
+      {
+        "title": "API Integration",
+        "desc": "OpenAI API, Streaming, Function Calling, Webhooks. Connect AI models to real-world applications with robust API integration patterns. Implement streaming responses, token management, cost optimization, error handling, and webhook-driven automation workflows.",
+        "tags": [
+          "OpenAI",
+          "APIs"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Knowledge Base AI",
+        "desc": "Build a RAG-powered system that ingests company documents, PDFs, and wikis to answer employee questions with source citations",
+        "tags": [
+          "LangChain",
+          "ChromaDB"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "AI Content Studio",
+        "desc": "Create a multi-modal content platform that generates blog posts, social media copy, and images with brand voice consistency and approval workflows",
+        "tags": [
+          "GPT API",
+          "DALL-E"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Autonomous Research Agent Swarm",
+        "desc": "Develop a multi-agent system where specialized AI agents collaborate — one researches, one analyzes, one writes — to produce comprehensive reports and insights.",
+        "tags": [
+          "CrewAI",
+          "LangGraph"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "E-commerce Development",
+    "slug": "ecommerce",
+    "image": "images/ecommerce.png",
+    "skills": "Shopify, WooCommerce, Payment Gateways",
+    "description": "Build and launch online stores end-to-end. Learn e-commerce platforms, product management, payment integration, and conversion optimization techniques.",
+    "tagline": "Build online stores that sell. Master e-commerce platforms, payments, and conversion optimization.",
+    "stats": [
+      {
+        "label": "Store Success Rate",
+        "value": "95%"
+      },
+      {
+        "label": "Startup Demand",
+        "value": "High"
+      },
+      {
+        "label": "Conversion Efficiency",
+        "value": "96%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Online Store",
+        "desc": "Build a complete store with product catalog, cart, and checkout. Implement dynamic pricing, wishlists, product comparisons, and personalized shopping experiences.",
+        "tags": [
+          "Shopify",
+          "Product Management",
+          "Themes"
+        ]
+      },
+      {
+        "title": "Payment Integration",
+        "desc": "Implement secure payment gateways with Stripe and PayPal. Handle multi-currency transactions, subscription billing, refunds, and PCI compliance.",
+        "tags": [
+          "Stripe",
+          "PayPal",
+          "Security"
+        ]
+      },
+      {
+        "title": "Inventory System",
+        "desc": "Create inventory management with stock tracking and alerts. Build automated reorder systems, warehouse management, and multi-location inventory sync.",
+        "tags": [
+          "WooCommerce",
+          "Automation",
+          "Reports"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Shopify",
+        "desc": "Themes, Liquid, Apps, Shopify API. Build custom storefronts with Liquid templating and extend functionality through the Shopify App ecosystem. Create headless commerce experiences, custom checkout flows, and automated inventory management with webhooks.",
+        "tags": [
+          "Shopify",
+          "Liquid"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/shopify.svg"
+      },
+      {
+        "title": "WooCommerce",
+        "desc": "WordPress, Plugins, Custom Fields, Hooks. Develop powerful e-commerce solutions on the world's most popular CMS platform. Build custom product types, shipping calculators, tax engines, and integrate with ERP systems through REST APIs.",
+        "tags": [
+          "WooCommerce",
+          "PHP"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/woocommerce/woocommerce-original.svg"
+      },
+      {
+        "title": "Payment Gateways",
+        "desc": "Stripe, PayPal, Razorpay, Security Best Practices. Implement secure payment processing with PCI-DSS compliance and fraud detection. Handle multi-currency transactions, subscription billing, refund workflows, and 3D Secure authentication.",
+        "tags": [
+          "Stripe",
+          "PayPal"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/stripe.svg"
+      },
+      {
+        "title": "Analytics & SEO",
+        "desc": "Google Analytics, Conversion Tracking, Product SEO. Track customer journeys, optimize conversion funnels, and maximize organic product visibility. Implement enhanced e-commerce tracking, A/B testing, structured data markup, and performance monitoring.",
+        "tags": [
+          "Analytics",
+          "SEO"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Multi-Vendor Marketplace",
+        "desc": "Build a marketplace with vendor dashboards, product variants, dynamic pricing, Stripe Connect payouts, and real-time inventory sync",
+        "tags": [
+          "Shopify API",
+          "Stripe"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Subscription Box Platform",
+        "desc": "Create a subscription commerce platform with recurring billing, personalized product curation, and churn prediction analytics",
+        "tags": [
+          "WooCommerce",
+          "Analytics"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Headless Commerce with AI",
+        "desc": "Develop a headless e-commerce system with AI-powered product recommendations, visual search, dynamic pricing engine, and omnichannel sync",
+        "tags": [
+          "React",
+          "ML",
+          "GraphQL"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "MEAN Stack Development",
+    "slug": "mean-stack",
+    "image": "images/meanstack.png",
+    "skills": "MongoDB, Express.js, Angular, Node.js",
+    "description": "Master the MEAN stack — build dynamic web applications using MongoDB, Express.js, Angular, and Node.js with project experience.",
+    "tagline": "Build enterprise-grade applications with Angular and Node.js. Master the MEAN stack end-to-end.",
+    "stats": [
+      {
+        "label": "Application Speed",
+        "value": "97%"
+      },
+      {
+        "label": "Developer Demand",
+        "value": "High"
+      },
+      {
+        "label": "Project Success",
+        "value": "100%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Enterprise Dashboard",
+        "desc": "Build a data-rich admin dashboard with charts and role management. Implement real-time data feeds, custom report builders, and exportable analytics.",
+        "tags": [
+          "Angular",
+          "Charts",
+          "RBAC"
+        ]
+      },
+      {
+        "title": "HR Management System",
+        "desc": "Create an employee management platform with attendance and payroll. Add leave management, performance reviews, and automated compliance reporting.",
+        "tags": [
+          "Express",
+          "MongoDB",
+          "Reports"
+        ]
+      },
+      {
+        "title": "Booking Platform",
+        "desc": "Develop a reservation system with calendar and notifications. Build multi-provider scheduling, payment processing, and automated reminder workflows.",
+        "tags": [
+          "Angular",
+          "Node.js",
+          "Email"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "MongoDB",
+        "desc": "Schema Design, Aggregation, Indexing. Build efficient NoSQL data models with embedded documents and reference patterns for complex relationships. Implement aggregation pipelines, text search, geospatial queries, and change streams for real-time data processing.",
+        "tags": [
+          "MongoDB",
+          "Mongoose"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+      },
+      {
+        "title": "Express.js",
+        "desc": "REST APIs, Middleware, Error Handling. Create robust server-side applications with modular routing and comprehensive middleware chains. Build authentication systems, file upload handlers, request validation, and centralized error management patterns.",
+        "tags": [
+          "Express",
+          "REST"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+      },
+      {
+        "title": "Angular",
+        "desc": "Components, Services, RxJS, Routing, Forms. Build enterprise-scale single-page applications with TypeScript and reactive programming patterns. Master dependency injection, lazy-loaded modules, custom directives, and state management with NgRx.",
+        "tags": [
+          "Angular",
+          "RxJS"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+      },
+      {
+        "title": "Node.js",
+        "desc": "Server Architecture, Authentication, File Handling. Design event-driven backend systems with non-blocking I/O for high-throughput applications. Implement JWT/OAuth authentication, session management, cluster mode, and worker threads for CPU-intensive tasks.",
+        "tags": [
+          "Node.js",
+          "JWT"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Enterprise Resource Planner",
+        "desc": "Build an ERP system with modules for HR, inventory, finance, and reporting, complete with role-based dashboards and audit logging.",
+        "tags": [
+          "Angular",
+          "MongoDB"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Real-time Booking Engine",
+        "desc": "Create a booking platform with calendar sync, payment processing, automated reminders, waitlists, and multi-timezone support",
+        "tags": [
+          "Express",
+          "Stripe"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Healthcare Management System",
+        "desc": "Develop a HIPAA-aware patient management system with appointment scheduling, medical records, lab integration, and telemedicine",
+        "tags": [
+          "Angular",
+          "Node.js"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Mobile Application Development",
+    "slug": "mobile-app",
+    "image": "images/Mobileapp.png",
+    "skills": "React Native, Flutter, iOS, Android",
+    "description": "Create cross-platform mobile apps for iOS and Android. Learn React Native or Flutter, mobile UI patterns, device APIs, and app store deployment.",
+    "tagline": "Build apps for billions of users. Master cross-platform mobile development for iOS and Android.",
+    "stats": [
+      {
+        "label": "App Success Rate",
+        "value": "97%"
+      },
+      {
+        "label": "Industry Demand",
+        "value": "High"
+      },
+      {
+        "label": "User Retention",
+        "value": "96%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Social App",
+        "desc": "Build a social networking app with feeds, messaging, and notifications. Implement stories, live streaming, content moderation, and engagement analytics.",
+        "tags": [
+          "React Native",
+          "Firebase",
+          "Push Notifications"
+        ]
+      },
+      {
+        "title": "Fitness Tracker",
+        "desc": "Create a health app with step counting, goals, and charts. Integrate wearable device sync, meal planning, workout routines, and progress sharing.",
+        "tags": [
+          "Flutter",
+          "Device Sensors",
+          "Charts"
+        ]
+      },
+      {
+        "title": "Food Delivery App",
+        "desc": "Develop a delivery app with maps, orders, and real-time tracking. Build driver assignment algorithms, estimated delivery times, and rating systems.",
+        "tags": [
+          "Maps API",
+          "Geolocation",
+          "Payments"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "React Native",
+        "desc": "Components, Navigation, State, Native Modules. Build cross-platform mobile apps with a single JavaScript codebase that renders native UI components. Implement deep linking, offline storage, push notifications, and bridge native device features seamlessly.",
+        "tags": [
+          "React Native",
+          "Expo"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        "title": "Flutter",
+        "desc": "Widgets, Dart, State Management, Animations. Create beautiful, natively compiled applications with Flutter's rich widget library and hot reload. Master custom animations, platform channels, responsive layouts, and state management with Riverpod or Bloc.",
+        "tags": [
+          "Flutter",
+          "Dart"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+      },
+      {
+        "title": "Device APIs",
+        "desc": "Camera, GPS, Push Notifications, Storage. Access native device capabilities to build feature-rich mobile experiences users love. Integrate biometric authentication, background location tracking, local databases, and health kit data synchronization.",
+        "tags": [
+          "Camera",
+          "GPS"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
+      },
+      {
+        "title": "App Deployment",
+        "desc": "App Store, Play Store, CI/CD, Testing. Navigate the complete app submission process from build to approval on both major platforms. Set up automated testing pipelines, beta distribution, crash reporting, and over-the-air update mechanisms.",
+        "tags": [
+          "App Store",
+          "Play Store"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "FinTech Wallet App",
+        "desc": "Build a digital wallet with biometric auth, P2P transfers, transaction history, spending analytics, and push notifications",
+        "tags": [
+          "React Native",
+          "Firebase"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "AR Navigation App",
+        "desc": "Create an augmented reality indoor navigation app with real-time pathfinding, beacon integration, and 3D wayfinding overlays",
+        "tags": [
+          "Flutter",
+          "ARCore"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "On-Demand Delivery Platform",
+        "desc": "Develop a full delivery ecosystem with customer app, driver app, real-time GPS tracking, route optimization, and admin dashboard",
+        "tags": [
+          "Maps API",
+          "Socket.io"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "UI/UX Design",
+    "slug": "ui-ux-design",
+    "image": "images/uiux.png",
+    "skills": "Figma, Wireframing, Prototyping, User Research",
+    "description": "Design intuitive, user-centered digital experiences. Learn wireframing, prototyping in Figma, usability testing and translate research into beautiful interfaces.",
+    "tagline": "Design experiences people love. Master user research, wireframing, and interactive prototyping.",
+    "stats": [
+      {
+        "label": "User Satisfaction",
+        "value": "97%"
+      },
+      {
+        "label": "Design Demand",
+        "value": "High"
+      },
+      {
+        "label": "Usability Score",
+        "value": "96%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Mobile App Design",
+        "desc": "Design complete mobile app interfaces with user flows and interactions. Create pixel-perfect mockups with micro-interactions, gesture patterns, and accessibility compliance.",
+        "tags": [
+          "Figma",
+          "Mobile UI",
+          "Prototyping"
+        ]
+      },
+      {
+        "title": "Website Redesign",
+        "desc": "Redesign existing websites with improved usability and aesthetics. Conduct UX audits, implement design systems, and optimize conversion funnels.",
+        "tags": [
+          "Wireframes",
+          "UI Audit",
+          "Design System"
+        ]
+      },
+      {
+        "title": "Design System",
+        "desc": "Create a reusable component library with tokens and guidelines. Build scalable design foundations with documentation, versioning, and developer handoff specs.",
+        "tags": [
+          "Components",
+          "Tokens",
+          "Documentation"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Figma",
+        "desc": "Auto Layout, Components, Variants, Prototyping. Design scalable interfaces with reusable component systems and interactive prototypes. Master advanced auto layout, design tokens, branching workflows, and developer handoff with inspect mode.",
+        "tags": [
+          "Figma",
+          "Auto Layout"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+      },
+      {
+        "title": "User Research",
+        "desc": "Interviews, Surveys, Personas, Journey Maps. Uncover user needs through systematic research methods and synthesize findings into actionable insights. Conduct usability studies, create empathy maps, define user stories, and validate assumptions with data.",
+        "tags": [
+          "Research",
+          "Personas"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
+      },
+      {
+        "title": "Wireframing",
+        "desc": "Low-fi Sketches, Information Architecture, User Flows. Structure content and navigation for intuitive user experiences before visual design begins. Build sitemaps, task flows, interaction models, and validate information hierarchy with card sorting.",
+        "tags": [
+          "Wireframes",
+          "IA"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
+      },
+      {
+        "title": "Usability Testing",
+        "desc": "A/B Testing, Heuristic Evaluation, User Feedback. Validate design decisions with real users and iterate based on measurable outcomes. Run moderated and unmoderated tests, analyze heatmaps, track task completion rates, and optimize conversion funnels.",
+        "tags": [
+          "Testing",
+          "Analytics"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chrome/chrome-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "HealthTech App Redesign",
+        "desc": "Redesign a healthcare app with accessibility-first approach, patient journey mapping, micro-interactions, and a complete design system",
+        "tags": [
+          "Figma",
+          "Design System"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "AI Dashboard Experience",
+        "desc": "Design an AI analytics dashboard with complex data visualization, real-time widgets, dark/light modes, and responsive layouts",
+        "tags": [
+          "Data Viz",
+          "Prototyping"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "End-to-End SaaS Product Design",
+        "desc": "Lead the full design process for a B2B SaaS product, from user research and competitive analysis to high-fidelity prototypes with developer handoff.",
+        "tags": [
+          "Research",
+          "Handoff"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Web Development",
+    "slug": "web-development",
+    "image": "images/webdevelopment.png",
+    "skills": "HTML, CSS, JavaScript, React",
+    "description": "Build responsive, modern websites from scratch. Learn front-end fundamentals, component-based architecture with React, and best practices for creating fast, accessible user interfaces.",
+    "tagline": "Build the web. Master HTML, CSS, JavaScript, and React to create stunning, responsive websites.",
+    "stats": [
+      {
+        "label": "Website Performance",
+        "value": "98%"
+      },
+      {
+        "label": "Industry Demand",
+        "value": "High"
+      },
+      {
+        "label": "Project Success",
+        "value": "100%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Business Websites",
+        "desc": "Build professional websites with responsive layouts and animations. Create SEO-optimized, fast-loading sites with modern design patterns and CMS integration.",
+        "tags": [
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Single Page Apps",
+        "desc": "Create dynamic SPAs with React, routing, and state management. Implement lazy loading, code splitting, and progressive enhancement for optimal performance.",
+        "tags": [
+          "React",
+          "Router",
+          "Hooks"
+        ]
+      },
+      {
+        "title": "Landing Pages",
+        "desc": "Design high-converting landing pages with modern CSS and animations. Build A/B testable pages with analytics tracking, form optimization, and scroll-triggered effects.",
+        "tags": [
+          "CSS Grid",
+          "Flexbox",
+          "Animations"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "HTML & CSS",
+        "desc": "Semantic HTML, Flexbox, Grid, Responsive Design. Build accessible, SEO-friendly web pages with modern layout techniques and responsive breakpoints. Master CSS custom properties, container queries, animations, and progressive enhancement strategies.",
+        "tags": [
+          "HTML5",
+          "CSS3"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      },
+      {
+        "title": "JavaScript",
+        "desc": "ES6+, DOM, Async/Await, Fetch API. Write modern, clean JavaScript with advanced language features and asynchronous programming patterns. Implement closures, prototypal inheritance, event delegation, Web Workers, and browser storage APIs.",
+        "tags": [
+          "JavaScript",
+          "ES6"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      },
+      {
+        "title": "React",
+        "desc": "Components, Hooks, Context, React Router. Build dynamic single-page applications with component-driven architecture and declarative UI patterns. Master custom hooks, code splitting, suspense boundaries, server-side rendering, and testing with React Testing Library.",
+        "tags": [
+          "React",
+          "Hooks"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      },
+      {
+        "title": "Tools & Deployment",
+        "desc": "Git, VS Code, Netlify, Vercel, Webpack. Manage code with version control and deploy applications to modern hosting platforms instantly. Configure build pipelines, environment variables, preview deployments, custom domains, and performance monitoring.",
+        "tags": [
+          "Git",
+          "Netlify"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Interactive Portfolio with 3D",
+        "desc": "Build a portfolio site with Three.js 3D elements, scroll-triggered animations, dark mode, and a custom CMS for content management",
+        "tags": [
+          "Three.js",
+          "GSAP"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Real-time Collaborative Whiteboard",
+        "desc": "Create a Figma-like collaborative whiteboard with WebSocket sync, drawing tools, sticky notes, and export functionality",
+        "tags": [
+          "Canvas API",
+          "WebSocket"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Progressive Web App Platform",
+        "desc": "Develop a PWA builder that generates installable, offline-capable web apps with push notifications, service workers, and app shell architecture",
+        "tags": [
+          "PWA",
+          "Service Workers"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Machine Learning & Deep Learning",
+    "slug": "ml-deep-learning",
+    "image": "images/ML&DL.png",
+    "skills": "Python, TensorFlow, PyTorch, Scikit-learn",
+    "description": "Go deep into ML and DL — build classification models, neural networks, CNNs, RNNs, and transformers. Learn model training, evaluation, and deployment with datasets.",
+    "tagline": "From data to intelligence. Master the algorithms and frameworks behind modern AI systems.",
+    "stats": [
+      {
+        "label": "Prediction Accuracy",
+        "value": "99%"
+      },
+      {
+        "label": "Industry Usage",
+        "value": "Global"
+      },
+      {
+        "label": "Project Success",
+        "value": "96%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Predictive Analytics",
+        "desc": "Build models that forecast sales, churn, and market trends. Create automated ML pipelines with feature engineering, model selection, and real-time prediction APIs.",
+        "tags": [
+          "Regression",
+          "Time Series",
+          "Scikit-learn"
+        ]
+      },
+      {
+        "title": "Image Classification",
+        "desc": "Train CNNs to classify images for medical, retail, and security use. Implement transfer learning, data augmentation, and model interpretability techniques.",
+        "tags": [
+          "CNN",
+          "TensorFlow",
+          "Transfer Learning"
+        ]
+      },
+      {
+        "title": "NLP Applications",
+        "desc": "Build text classifiers, summarizers, and language models. Create production NLP pipelines with entity extraction, topic modeling, and multilingual support.",
+        "tags": [
+          "RNN",
+          "Transformers",
+          "BERT"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Python & NumPy",
+        "desc": "Data manipulation, Linear Algebra, Pandas. Process and transform large datasets with vectorized operations and efficient memory management. Build data cleaning pipelines, statistical analysis workflows, and visualization dashboards with Matplotlib and Seaborn.",
+        "tags": [
+          "Python",
+          "NumPy"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+      },
+      {
+        "title": "Scikit-learn",
+        "desc": "Classification, Regression, Clustering, Pipelines. Train and evaluate machine learning models with the industry-standard Python ML library. Implement feature selection, dimensionality reduction, ensemble methods, and automated ML pipelines with cross-validation.",
+        "tags": [
+          "Scikit-learn",
+          "ML"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+      },
+      {
+        "title": "TensorFlow & Keras",
+        "desc": "Neural Networks, CNNs, RNNs, Model Training. Build and deploy deep learning models with Google's production-grade ML framework. Master custom training loops, distributed training, model quantization, TensorFlow Serving, and TFLite for edge deployment.",
+        "tags": [
+          "TensorFlow",
+          "Keras"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+      },
+      {
+        "title": "PyTorch",
+        "desc": "Dynamic Graphs, Custom Models, Research. Develop cutting-edge deep learning models with PyTorch's flexible and intuitive framework. Implement custom loss functions, dynamic computation graphs, distributed data parallel training, and ONNX model export.",
+        "tags": [
+          "PyTorch",
+          "CUDA"
+        ],
+        "image": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Predictive Maintenance System",
+        "desc": "Build an IoT predictive maintenance platform that analyzes sensor data streams to predict equipment failures before they happen",
+        "tags": [
+          "Time Series",
+          "Scikit-learn"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Text-to-SQL Chatbot",
+        "desc": "Create an intelligent chatbot that converts natural language questions into SQL queries, executes them, and returns visual data insights",
+        "tags": [
+          "NLP",
+          "TensorFlow"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Autonomous Trading Bot",
+        "desc": "Develop a reinforcement learning trading agent that analyzes market patterns, executes trades, and adapts strategy based on real-time performance",
+        "tags": [
+          "PyTorch",
+          "RL"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Game Development",
+    "slug": "game-development",
+    "image": "images/Gaming.png",
+    "skills": "Unity, C#, 3D Modeling, Game Mechanics",
+    "description": "Design and develop interactive games from concept to playable build. Learn Unity, C# scripting, 3D asset integration, physics systems, and core game mechanics with advanced complete skills.",
+    "tagline": "Create worlds. Build interactive games with Unity, C#, and professional game design principles.",
+    "stats": [
+      {
+        "label": "Game Performance",
+        "value": "96%"
+      },
+      {
+        "label": "Global Market",
+        "value": "Huge"
+      },
+      {
+        "label": "User Engagement",
+        "value": "97%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "2D Platformer",
+        "desc": "Build a side-scrolling platformer with physics and level design. Create procedural level generation, particle effects, and adaptive difficulty systems.",
+        "tags": [
+          "Unity 2D",
+          "Tilemaps",
+          "Physics"
+        ]
+      },
+      {
+        "title": "3D Adventure Game",
+        "desc": "Create an open-world exploration game with quests and NPCs. Implement dynamic weather, AI-driven NPC behavior, and cinematic cutscene systems.",
+        "tags": [
+          "Unity 3D",
+          "NavMesh",
+          "AI"
+        ]
+      },
+      {
+        "title": "Multiplayer Game",
+        "desc": "Develop an online multiplayer game with matchmaking. Build real-time synchronization, anti-cheat systems, and competitive ranking algorithms.",
+        "tags": [
+          "Photon",
+          "Networking",
+          "Lobby"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Unity Engine",
+        "desc": "Scene Management, Physics, UI, Animation. Master the world's most popular game engine for 2D and 3D game development across all platforms. Build complex game systems with physics simulations, particle effects, timeline animations, and shader graph visual effects.",
+        "tags": [
+          "Unity",
+          "Editor"
+        ],
+        "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=400&q=80"
+      },
+      {
+        "title": "C# Programming",
+        "desc": "OOP, Coroutines, Events, Design Patterns. Write clean, performant game code with C# and apply industry-standard design patterns. Implement state machines, observer patterns, object pooling, scriptable objects, and async programming for smooth gameplay.",
+        "tags": [
+          "C#",
+          "OOP"
+        ],
+        "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=400&q=80"
+      },
+      {
+        "title": "3D Modeling",
+        "desc": "Asset Import, Materials, Lighting, Shaders. Create stunning visual environments with PBR materials, dynamic lighting, and custom shader effects. Master asset optimization, LOD systems, texture atlasing, and post-processing effects for cinematic quality.",
+        "tags": [
+          "3D",
+          "Shaders"
+        ],
+        "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=400&q=80"
+      },
+      {
+        "title": "Game Design",
+        "desc": "Mechanics, Level Design, Balancing, Playtesting. Design engaging gameplay loops that keep players coming back with reward systems and progression. Create level layouts, difficulty curves, economy balancing, narrative integration, and data-driven design iterations.",
+        "tags": [
+          "Design",
+          "Mechanics"
+        ],
+        "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&q=80"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Open-World Survival Game",
+        "desc": "Build a procedurally generated survival game with crafting systems, day-night cycles, AI-driven wildlife, and inventory management",
+        "tags": [
+          "Unity 3D",
+          "Procedural"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Multiplayer Battle Arena",
+        "desc": "Create a real-time multiplayer arena game with matchmaking, leaderboards, skill-based ranking, and spectator mode",
+        "tags": [
+          "Photon",
+          "Networking"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "VR Training Simulator",
+        "desc": "Develop a VR training simulation for industrial safety with realistic physics, hand tracking, scenario branching, and performance analytics",
+        "tags": [
+          "XR Toolkit",
+          "C#"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Branding & Design",
+    "slug": "branding-design",
+    "image": "images/Branding&design.png",
+    "skills": "Brand Strategy, Visual Identity, Adobe Suite",
+    "description": "Craft compelling brand identities from strategy to execution. Learn logo design, typography, color theory, and how to build cohesive visual systems for businesses.",
+    "tagline": "Build brands that stand out. Master visual identity, strategy, and design systems.",
+    "stats": [
+      {
+        "label": "Design Quality",
+        "value": "97%"
+      },
+      {
+        "label": "Creative Demand",
+        "value": "High"
+      },
+      {
+        "label": "Client Satisfaction",
+        "value": "96%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Brand Identity",
+        "desc": "Create complete brand identities with logos, colors, and typography. Develop brand voice guidelines, visual language systems, and multi-platform asset libraries.",
+        "tags": [
+          "Logo Design",
+          "Color Theory",
+          "Typography"
+        ]
+      },
+      {
+        "title": "Marketing Collateral",
+        "desc": "Design brochures, social media graphics, and presentations. Build template systems for consistent brand expression across digital and print channels.",
+        "tags": [
+          "Print Design",
+          "Social Media",
+          "Layout"
+        ]
+      },
+      {
+        "title": "Brand Guidelines",
+        "desc": "Develop comprehensive brand guideline documents. Create living style guides with usage rules, do/don't examples, and downloadable asset packages.",
+        "tags": [
+          "Style Guide",
+          "Documentation",
+          "Standards"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Adobe Illustrator",
+        "desc": "Vector Graphics, Logo Design, Icon Creation. Create scalable brand assets with precision vector tools and professional illustration techniques. Master pen tool mastery, gradient meshes, pattern creation, and export workflows for print and digital media.",
+        "tags": [
+          "Illustrator",
+          "Vector"
+        ],
+        "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&q=80"
+      },
+      {
+        "title": "Adobe Photoshop",
+        "desc": "Photo Editing, Compositing, Digital Art. Transform images and create stunning visual compositions for marketing and brand campaigns. Master layer management, smart objects, actions automation, color grading, and retouching techniques for professional output.",
+        "tags": [
+          "Photoshop",
+          "Editing"
+        ],
+        "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=400&q=80"
+      },
+      {
+        "title": "Brand Strategy",
+        "desc": "Positioning, Messaging, Target Audience, Competitors. Define brand identity through strategic research, competitive analysis, and audience insights. Develop brand archetypes, value propositions, tone of voice guidelines, and go-to-market positioning frameworks.",
+        "tags": [
+          "Strategy",
+          "Research"
+        ],
+        "image": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&q=80"
+      },
+      {
+        "title": "Design Principles",
+        "desc": "Color Theory, Typography, Layout, Hierarchy. Apply fundamental design principles to create visually compelling and effective communications. Master grid systems, whitespace management, visual rhythm, contrast ratios, and responsive design adaptation.",
+        "tags": [
+          "Color",
+          "Typography"
+        ],
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400&q=80"
+      }
+    ],
+    "projects": [
+      {
+        "title": "D2C Brand Launch",
+        "desc": "Create a complete direct-to-consumer brand identity from scratch: logo, packaging, social templates, website design, and brand guidelines document.",
+        "tags": [
+          "Illustrator",
+          "Strategy"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Rebranding Campaign",
+        "desc": "Lead a full rebranding project with competitive audit, brand positioning, visual identity overhaul, and multi-channel launch campaign",
+        "tags": [
+          "Photoshop",
+          "Research"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Design System & Brand OS",
+        "desc": "Build a scalable brand operating system with design tokens, component library, motion guidelines, and automated asset generation pipeline",
+        "tags": [
+          "Figma",
+          "Design Tokens"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Search Engine Optimization (SEO)",
+    "slug": "seo",
+    "image": "images/seo.jpg",
+    "skills": "Keyword Research, On-Page SEO, Link Building",
+    "description": "Drive organic traffic through proven SEO strategies. Learn keyword research, technical SEO, on-page optimization, link building, and analytics reporting.",
+    "tagline": "Rank higher. Drive organic traffic with proven SEO strategies and data-driven optimization.",
+    "stats": [
+      {
+        "label": "Ranking Improvement",
+        "value": "98%"
+      },
+      {
+        "label": "Business Demand",
+        "value": "High"
+      },
+      {
+        "label": "Traffic Growth",
+        "value": "97%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Website Audit",
+        "desc": "Perform comprehensive SEO audits and create optimization plans. Identify technical issues, content gaps, and competitive opportunities with actionable roadmaps.",
+        "tags": [
+          "Technical SEO",
+          "Site Speed",
+          "Crawlability"
+        ]
+      },
+      {
+        "title": "Content Strategy",
+        "desc": "Develop keyword-driven content strategies that rank. Build topical authority maps, content calendars, and performance tracking dashboards.",
+        "tags": [
+          "Keyword Research",
+          "Content Planning",
+          "SERP Analysis"
+        ]
+      },
+      {
+        "title": "Link Building",
+        "desc": "Build high-quality backlink profiles through outreach and content. Implement digital PR campaigns, broken link strategies, and authority-building partnerships.",
+        "tags": [
+          "Outreach",
+          "Guest Posts",
+          "Authority"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Keyword Research",
+        "desc": "Ahrefs, SEMrush, Google Keyword Planner. Discover high-value keywords with search volume, difficulty, and intent analysis using professional SEO tools. Build keyword clusters, identify content gaps, analyze competitor rankings, and prioritize opportunities by ROI potential.",
+        "tags": [
+          "Ahrefs",
+          "SEMrush"
+        ],
+        "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400&q=80"
+      },
+      {
+        "title": "On-Page SEO",
+        "desc": "Meta Tags, Schema, Content Optimization, Internal Links. Optimize every page element for maximum search engine visibility and click-through rates. Implement structured data markup, heading hierarchy, image alt optimization, and strategic internal linking architecture.",
+        "tags": [
+          "Meta Tags",
+          "Schema"
+        ],
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80"
+      },
+      {
+        "title": "Technical SEO",
+        "desc": "Site Speed, Core Web Vitals, Crawling, Indexing. Ensure search engines can efficiently discover, crawl, and index your entire website. Optimize server response times, implement lazy loading, fix crawl errors, manage XML sitemaps, and resolve canonicalization issues.",
+        "tags": [
+          "Speed",
+          "Vitals"
+        ],
+        "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&q=80"
+      },
+      {
+        "title": "Analytics",
+        "desc": "Google Analytics, Search Console, Reporting. Track organic performance with comprehensive dashboards and data-driven decision making. Build custom reports, set up conversion tracking, monitor keyword rankings, and create automated performance alerts.",
+        "tags": [
+          "GA4",
+          "GSC"
+        ],
+        "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=400&q=80"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Technical SEO Overhaul",
+        "desc": "Perform a deep technical audit: fix crawl issues, implement structured data, optimize Core Web Vitals, and build an automated monitoring dashboard.",
+        "tags": [
+          "Screaming Frog",
+          "Schema"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "Content Authority Engine",
+        "desc": "Build a topical authority strategy with pillar-cluster content architecture, internal linking automation, and SERP tracking for 500+ keywords",
+        "tags": [
+          "Ahrefs",
+          "Content Hub"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Programmatic SEO Platform",
+        "desc": "Develop a programmatic SEO system that auto-generates thousands of optimized landing pages from data, with dynamic schema and A/B testing",
+        "tags": [
+          "Automation",
+          "Python"
+        ],
+        "level": "Expert"
+      }
+    ]
+  },
+  {
+    "name": "Digital Marketing",
+    "slug": "digital-marketing",
+    "image": "images/digitalmarketinglogo.jpg",
+    "skills": "SEO, Meta Ads, Analytics, Content Strategy",
+    "description": "Master digital marketing channels — from search engine optimization and paid ads to social media strategy and analytics management.",
+    "tagline": "Drive growth online. Master paid ads, social media, analytics, and data-driven marketing strategies.",
+    "stats": [
+      {
+        "label": "Campaign Success",
+        "value": "96%"
+      },
+      {
+        "label": "Market Demand",
+        "value": "High"
+      },
+      {
+        "label": "Engagement Rate",
+        "value": "97%"
+      }
+    ],
+    "applications": [
+      {
+        "title": "Paid Ad Campaigns",
+        "desc": "Create and optimize Meta and Google ad campaigns for conversions. Master audience segmentation, creative testing, and budget optimization with ROAS tracking.",
+        "tags": [
+          "Meta Ads",
+          "Google Ads",
+          "A/B Testing"
+        ]
+      },
+      {
+        "title": "Social Media Strategy",
+        "desc": "Build and execute social media strategies across platforms. Develop content pillars, engagement frameworks, and influencer collaboration workflows.",
+        "tags": [
+          "Instagram",
+          "LinkedIn",
+          "Content Calendar"
+        ]
+      },
+      {
+        "title": "Email Marketing",
+        "desc": "Design automated email campaigns with segmentation and analytics. Build drip sequences, behavioral triggers, and personalized content engines that drive conversions.",
+        "tags": [
+          "Mailchimp",
+          "Automation",
+          "Segmentation"
+        ]
+      }
+    ],
+    "techStack": [
+      {
+        "title": "Meta Ads",
+        "desc": "Facebook & Instagram Ads, Audience Targeting, Pixel. Create high-converting ad campaigns with precise audience segmentation and retargeting strategies. Master lookalike audiences, custom conversions, dynamic creative optimization, and campaign budget optimization algorithms.",
+        "tags": [
+          "Meta",
+          "Pixel"
+        ],
+        "image": "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=400&q=80"
+      },
+      {
+        "title": "Google Ads",
+        "desc": "Search, Display, YouTube Ads, Remarketing. Drive targeted traffic with pay-per-click campaigns across Google's entire advertising network. Build responsive search ads, shopping campaigns, video ad sequences, and performance max campaigns with smart bidding.",
+        "tags": [
+          "Google Ads",
+          "PPC"
+        ],
+        "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&q=80"
+      },
+      {
+        "title": "Analytics",
+        "desc": "Google Analytics 4, UTM Tracking, Dashboards. Measure campaign performance with event-based analytics and multi-touch attribution models. Build custom funnels, audience segments, predictive metrics, and automated reporting dashboards with Data Studio.",
+        "tags": [
+          "GA4",
+          "Reporting"
+        ],
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80"
+      },
+      {
+        "title": "Content Marketing",
+        "desc": "Blog Strategy, SEO Content, Social Media Content. Create compelling content that attracts, engages, and converts your target audience organically. Develop editorial calendars, content distribution strategies, repurposing workflows, and performance measurement frameworks.",
+        "tags": [
+          "Content",
+          "SEO"
+        ],
+        "image": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=400&q=80"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Omnichannel Campaign Engine",
+        "desc": "Build an integrated campaign across Meta, Google, email, and SMS with unified tracking, attribution modeling, and automated budget optimization",
+        "tags": [
+          "Meta Ads",
+          "GA4"
+        ],
+        "level": "Foundation"
+      },
+      {
+        "title": "AI-Powered Ad Optimizer",
+        "desc": "Create an AI system that analyzes ad performance, auto-generates creative variations, predicts CTR, and reallocates budget to top performers",
+        "tags": [
+          "Python",
+          "Meta API"
+        ],
+        "level": "Professional"
+      },
+      {
+        "title": "Growth Marketing Platform",
+        "desc": "Develop a full growth marketing stack with landing page builder, A/B testing engine, lead scoring, marketing automation, and ROI attribution dashboard",
+        "tags": [
+          "Automation",
+          "Analytics"
+        ],
+        "level": "Expert"
+      }
+    ]
+  }
+]

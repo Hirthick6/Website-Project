@@ -1,0 +1,73 @@
+ROUTE: /services
+URL: http://localhost:8001/#services
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+Our Services
+Comprehensive digital solutions tailored to your business needs
+Artificial Intelligence & Automation
+Build intelligent AI agents, Gen AI solutions, automation pipelines & machine learning systems that streamline business operations & enable data-driven decisions
+Python
+ML
+NLP
+Gen AI
+AI Agents
+Learn More
+Get Started
+Web Application Development
+Full-stack web applications built with modern frameworks. Scalable, secure, and high-performance solutions tailored to your business requirements.
+React
+Next.js
+Node.js
+Django
+MERN
+Learn More
+Get Started
+Mobile Application Development
+Cross-platform and native mobile apps with seamless user experiences. From concept to deployment on App Store and Google Play.
+React Native
+Flutter
+iOS
+Android
+Learn More
+Get Started
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions

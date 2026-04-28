@@ -1,0 +1,70 @@
+ROUTE: /faq
+URL: http://localhost:8001/#faq
+============================================================
+
+Home
+Services
+Internships
+AI Development
+Careers
+About GenZova
+Contact Us
+
+
+
+
+
+
+
+Frequently Asked Questions
+Get all your questions answered about GenZova Software Solutions development services, processes, and partnerships
+Our Services
+Development Process
+Pricing & Payments
+Technology Stack
+32+
+Projects Completed
+1+
+Years of Experience
+32+
+Happy Clients
+2+
+Service Domains
+4+
+Industry Awards
+2+
+Internships Provided
+What development services does GenZova offer?
+GenZova provides comprehensive digital solutions including Custom Web Applications, Mobile Apps (iOS & Android), E-commerce Platforms, UI/UX Design, AI & Automation, Cloud Solutions, DevOps, Digital Marketing, SEO, Branding, and ongoing Maintenance & Support services tailored to your business needs.
+Do you work with startups or only established businesses?
+Can GenZova handle both design and development?
+Ready to Start Your Project?
+Have more questions or ready to bring your idea to life? Our GenZova team is here to help you create exceptional digital experiences.
+Start Your Project Today
+
+
+
+
+
+
+
+
+
+
+
+
+Empowering businesses with Artificial intelligence Development, E-commerce, Mobile Apps, Digital Marketing, and Full-Stack Software Solutions for growth.
+Quick Links
+Home
+About
+Services
+Internships
+Careers
+Get in Touch
+Madurai, Tamil Nadu, India
+genzovasoftwaresolutions@gmail.com
+WhatsApp Community
+Join our WhatsApp community for updates, internships, and AI learning.
+© 2026 GenZova Software Solutions. All rights reserved.
+Privacy Policy
+Terms and Conditions
