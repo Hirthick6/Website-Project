@@ -4746,3 +4746,278 @@ a {
     transform: translateX(-50%) !important;
   }
 }
+
+/* Final polished mobile view fixes */
+@media (max-width: 768px) {
+  h1, h2, .hero h1, .home-hero h1 {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+    max-width: 100% !important;
+    line-height: 1.2 !important;
+  }
+
+  .internship-hero-content, .legal-hero-inner {
+    padding: 2rem 1rem !important;
+  }
+
+  .section-title {
+    font-size: 1.75rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .about-enquiry-section p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    text-align: left !important;
+  }
+
+  .contact-card, .about-enquiry-form-card {
+    margin: 1.5rem 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .grid-2, .grid-3, .grid-4 {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+  }
+
+  .header-inner {
+    padding: 0.5rem 1rem !important;
+  }
+
+  .logo-img {
+    height: 1.75rem !important;
+  }
+
+  .logo-name-img {
+    height: 1.6rem !important;
+  }
+}
+
+/* Career Track Process Mobile Fixes */
+@media (max-width: 768px) {
+  .career-track-steps {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 3.5rem !important;
+    padding: 0 1rem !important;
+  }
+
+  .career-track-step {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .career-track-step p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    max-width: 20rem !important;
+    margin: 0.5rem auto 0 !important;
+  }
+
+  .career-track-connector {
+    width: 2px !important;
+    height: 2.5rem !important;
+    left: 50% !important;
+    top: auto !important;
+    bottom: -3rem !important;
+    transform: translateX(-50%) !important;
+    z-index: 1 !important;
+  }
+
+  .career-track-connector::after {
+    left: 50% !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: -5px !important;
+    transform: translateX(-50%) !important;
+  }
+
+  .career-track-step:last-child .career-track-connector {
+    display: none !important;
+  }
+}
+
+/* Refining the neat centering of lines and yellow points */
+@media (max-width: 768px) {
+  .process-connector, .career-track-connector {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 2px !important;
+    background: rgba(255, 255, 255, 0.4) !important;
+    margin: 0 !important;
+  }
+
+  .process-connector::after, .career-track-connector::after {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    right: auto !important;
+    width: 10px !important;
+    height: 10px !important;
+    border: 2px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 8px rgba(245, 158, 11, 0.4) !important;
+  }
+
+  .process-step, .career-track-step {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+}
+
+/* Implementing a continuous vertical progress line for mobile */
+@media (max-width: 768px) {
+  .process-steps, .career-track-steps {
+    position: relative !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  /* The continuous background line */
+  .process-steps::before, .career-track-steps::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 3rem !important;
+    bottom: 3rem !important;
+    left: 50% !important;
+    width: 2px !important;
+    background: rgba(255, 255, 255, 0.2) !important;
+    transform: translateX(-50%) !important;
+    z-index: 0 !important;
+  }
+
+  .process-step, .career-track-step {
+    position: relative !important;
+    z-index: 1 !important;
+    margin-bottom: 4rem !important;
+  }
+
+  /* Individual highlighted nodes */
+  .process-connector, .career-track-connector {
+    display: none !important; /* Replacing with continuous line + node dots */
+  }
+
+  .process-circle, .career-track-circle {
+    position: relative !important;
+    z-index: 2 !important;
+    background: var(--primary) !important;
+    border: 4px solid #1e3a8a !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2) !important;
+  }
+
+  /* Current step indicator dot (node) */
+  .process-step::after, .career-track-step::after {
+    content: '' !important;
+    position: absolute !important;
+    bottom: -2.25rem !important;
+    left: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    background: #f59e0b !important;
+    border-radius: 50% !important;
+    transform: translateX(-50%) !important;
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.6) !important;
+    border: 2px solid white !important;
+    z-index: 2 !important;
+  }
+
+  .process-step:last-child::after, .career-track-step:last-child::after {
+    display: none !important;
+  }
+
+  /* Ensuring text doesn't overlap line too much */
+  .process-step h3, .career-track-step h3 {
+    padding: 0.25rem 0.75rem !important;
+    background: rgba(30, 58, 138, 0.8) !important; /* Semi-transparent mask */
+    border-radius: 0.5rem !important;
+    display: inline-block !important;
+    margin-top: 1rem !important;
+  }
+}
+
+/* Fixing overlapping text and adding gaps to progress line */
+@media (max-width: 768px) {
+  /* Remove the continuous line that passes through text */
+  .process-steps::before, .career-track-steps::before {
+    display: none !important;
+  }
+
+  .process-step, .career-track-step {
+    margin-bottom: 5rem !important; /* Increase space for the connector */
+    position: relative !important;
+  }
+
+  /* The connector line segment (only in the margin) */
+  .process-step::before, .career-track-step::before {
+    content: '' !important;
+    position: absolute !important;
+    top: calc(100% + 0.5rem) !important;
+    left: 50% !important;
+    width: 2px !important;
+    height: 4rem !important;
+    transform: translateX(-50%) !important;
+    /* Creating a gap in the middle of the line for the dot */
+    background: linear-gradient(to bottom, 
+      rgba(255,255,255,0.3) 0%, 
+      rgba(255,255,255,0.3) 35%, 
+      transparent 35%, 
+      transparent 65%, 
+      rgba(255,255,255,0.3) 65%, 
+      rgba(255,255,255,0.3) 100%) !important;
+    z-index: 1 !important;
+  }
+
+  /* The highlighted node dot in the gap */
+  .process-step::after, .career-track-step::after {
+    content: '' !important;
+    position: absolute !important;
+    top: calc(100% + 2.5rem) !important; /* Centered in the 4rem line */
+    left: 50% !important;
+    width: 12px !important;
+    height: 12px !important;
+    background: #f59e0b !important;
+    border-radius: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.6) !important;
+    border: 2px solid white !important;
+    z-index: 2 !important;
+  }
+
+  .process-step:last-child::before, .process-step:last-child::after,
+  .career-track-step:last-child::before, .career-track-step:last-child::after {
+    display: none !important;
+  }
+
+  /* Clean up the titles */
+  .process-step h3, .career-track-step h3 {
+    background: none !important; /* No longer needed as line is gone */
+    padding: 0 !important;
+    display: block !important;
+    font-size: 1.3rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .process-step p, .career-track-step p {
+    padding: 0 1rem !important;
+    opacity: 0.9 !important;
+  }
+}
+
+/* Refining the progress line to end exactly at the yellow dot */
+@media (max-width: 768px) {
+  .process-step::before, .career-track-step::before {
+    height: 3rem !important;
+    background: rgba(255, 255, 255, 0.3) !important; /* Solid line segment */
+    top: calc(100% + 0.5rem) !important;
+  }
+
+  .process-step::after, .career-track-step::after {
+    top: calc(100% + 3.5rem) !important; /* Positioned at the exact end of the line */
+  }
+}
