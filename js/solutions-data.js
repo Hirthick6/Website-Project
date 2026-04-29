@@ -136,7 +136,7 @@ const SOLUTIONS_DATA = [
     tagline: 'Professional Academic Project Support for Students Across All Engineering Disciplines',
     contact: '',
     icon: 'academic',
-    btnLabel: 'Explore Academic Support',
+    btnLabel: 'Academic Support',
     services: [
       {
         title: 'Final Year Projects',
