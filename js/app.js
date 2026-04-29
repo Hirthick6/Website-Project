@@ -1947,7 +1947,7 @@ function renderSolutionDetail(data) {
         html += '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>';
         html += '<span style="font-size:0.8rem;color:var(--heading);text-align:left;">' + f + '</span></div>';
       });
-      html += '<button onclick="openOfferEnquiry(\'' + data.name.replace(/'/g, "\\'") + ' — ' + pkg.name.replace(/'/g, "\\'") + '\')" class="btn ' + (isFeatured ? 'btn-primary' : 'btn-outline') + '" style="width:100%;margin-top:1.25rem;padding:0.6rem;border:none;cursor:pointer;">Get Started</button>';
+      html += '<button onclick="openOfferEnquiry(\'' + data.name.replace(/'/g, "\\'") + ' — ' + pkg.name.replace(/'/g, "\\'") + '\')" class="btn btn-primary" style="width:100%;margin-top:1.25rem;padding:0.75rem;border-radius:0.75rem;cursor:pointer;border:none;">Get Started</button>';
       html += '</div>';
     });
     html += '</div></div></section>';

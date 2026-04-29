@@ -5107,17 +5107,19 @@ a {
   }
 }
 
-/* Making internship detail buttons uniform on mobile */
-@media (max-width: 480px) {
+/* Making internship and service buttons stacked vertically on all mobile devices (<= 768px) */
+@media (max-width: 768px) {
   .internship-btn-group {
     flex-direction: column !important;
-    gap: 1rem !important;
+    gap: 0.85rem !important;
+    margin-top: 1.5rem !important;
   }
 
   .internship-btn-group .btn {
     width: 100% !important;
-    padding: 1rem !important;
+    padding: 0.9rem !important;
     font-size: 1rem !important;
+    display: block !important;
   }
 }
 
@@ -5145,17 +5147,22 @@ a {
 
   .about-contact-item {
     width: 100%;
+    display: flex !important;
+    align-items: center !important; /* Center icon with text for neater look */
     justify-content: flex-start !important;
     text-align: left !important;
     background: white;
-    padding: 1rem;
+    padding: 1rem 1.25rem;
     border-radius: 12px;
     border: 1px solid #e2e8f0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   }
 
   .about-contact-item .contact-text p {
-    font-size: 0.9rem !important;
-    word-break: break-all !important;
+    font-size: 0.85rem !important; /* Slightly smaller to fit better */
+    line-height: 1.4 !important;
+    margin: 0 !important;
+    word-break: break-word !important; /* Better than break-all */
+    overflow-wrap: anywhere !important;
   }
 }
