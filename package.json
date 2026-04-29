@@ -3,8 +3,8 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "start": "python3 server.py",
-    "dev": "python3 server.py",
+    "start": "py -u server.py",
+    "dev": "py -u server.py",
     "astro:dev": "astro dev",
     "astro:build": "astro build",
     "check": "npx astro check --js-only",

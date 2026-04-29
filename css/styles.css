@@ -87,18 +87,28 @@ h6 {
 }
 
 .logo-img {
-  height: 3.5rem;
+  height: 2.5rem;
   width: auto;
   object-fit: contain;
   display: block;
 }
 
 .logo-name-img {
-  height: 5.46rem;
+  height: 2.4rem;
   width: auto;
   object-fit: contain;
   display: block;
-  margin-left: -1.5rem;
+  /* margin-left removed */
+}
+
+@media (min-width: 768px) {
+  .logo-img {
+    height: 3rem;
+  }
+
+  .logo-name-img {
+    height: 2.35rem;
+  }
 }
 
 .logo-name-wrap {
@@ -639,7 +649,8 @@ h6 {
 .marquee-text {
   font-size: 1.5rem;
   font-weight: 600;
-  letter-spacing: 0.3em;
+  letter-spacing: 0.1em;
+  word-spacing: 1rem;
   color: var(--primary);
   opacity: 0.9;
 }
@@ -1364,7 +1375,7 @@ h6 {
   .footer-bottom {
     flex-direction: row;
     justify-content: space-between;
-    text-align: left;
+    text-align: justify;
   }
 }
 
@@ -2284,7 +2295,7 @@ a {
 
 .internship-course-btn {
   background: linear-gradient(135deg, var(--primary) 0%, #1d4ed8 100%) !important;
-  border-color: var(--primary) !important;
+  border: 2px solid white !important;
   color: #fff !important;
   box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35);
 }
@@ -3264,7 +3275,7 @@ a {
   font-family: inherit;
   color: var(--text);
   cursor: pointer;
-  text-align: left;
+  text-align: justify;
   gap: 1rem;
   transition: color 0.2s;
 }
@@ -3883,7 +3894,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left;
+  text-align: justify;
 }
 
 .ai-capability-card:hover {
@@ -3999,7 +4010,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-align: left;
+  text-align: justify;
 }
 
 .why-card:hover {
@@ -4119,7 +4130,7 @@ a {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 70% 40%, rgba(59,130,246,0.25) 0%, transparent 65%);
+  background: radial-gradient(ellipse at 70% 40%, rgba(59, 130, 246, 0.25) 0%, transparent 65%);
   pointer-events: none;
 }
 
@@ -4132,14 +4143,14 @@ a {
 .legal-badge {
   display: inline-block;
   padding: 0.35rem 1rem;
-  background: rgba(255,255,255,0.12);
-  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 9999px;
   font-size: 0.8rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   margin-bottom: 1.25rem;
 }
 
@@ -4147,19 +4158,19 @@ a {
   font-size: clamp(2.4rem, 5.5vw, 4rem);
   color: #fff;
   margin-bottom: 1rem;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.25);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
 }
 
 .legal-hero p {
   font-size: 1.05rem;
-  color: rgba(255,255,255,0.85);
+  color: rgba(255, 255, 255, 0.85);
   line-height: 1.7;
   margin-bottom: 0.5rem;
 }
 
 .legal-updated {
   font-size: 0.85rem !important;
-  color: rgba(255,255,255,0.55) !important;
+  color: rgba(255, 255, 255, 0.55) !important;
   margin-top: 0.75rem;
 }
 
@@ -4173,7 +4184,7 @@ a {
 /* Table of Contents */
 .legal-toc {
   background: #f8faff;
-  border: 1px solid rgba(37,99,235,0.14);
+  border: 1px solid rgba(37, 99, 235, 0.14);
   border-left: 4px solid var(--primary);
   border-radius: 0.75rem;
   padding: 1.5rem 1.75rem;
@@ -4286,7 +4297,7 @@ a {
 
 .legal-table th {
   padding: 0.85rem 1rem;
-  text-align: left;
+  text-align: justify;
   font-family: 'Sora', sans-serif;
   font-weight: 600;
   font-size: 0.8rem;
@@ -4422,4 +4433,53 @@ a {
 .social-icon-link.linkedin:hover {
   background: #0A66C2;
   border-color: #0A66C2;
+}
+
+
+/* New text logo styles */
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo-main {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  background: linear-gradient(to bottom, #38bdf8 0%, #1d4ed8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.1rem;
+  width: 100%;
+  text-align: center;
+}
+
+.logo-sub {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.4rem;
+  color: #333333;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .logo-main {
+    font-size: 1.8rem;
+  }
+
+  .logo-sub {
+    font-size: 0.5rem;
+  }
 }

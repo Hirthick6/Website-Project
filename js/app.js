@@ -12,7 +12,7 @@ const INTERNSHIPS_DATA = [
     slug: 'artificial-intelligence',
     image: 'images/ai.png',
     skills: 'Machine Learning, Deep Learning, NLP, OpenCV',
-    description: 'Explore the core of AI from machine learning algorithms and neural networks to natural language processing and build predictive models and systems.',
+    description: 'Explore the fascinating core of AI, from advanced machine learning algorithms and deep neural networks to sophisticated natural language processing, and build highly accurate, scalable predictive models and enterprise systems.',
     tagline: 'Master AI technologies. Build intelligent systems that learn, adapt, and solve real-world problems.',
     stats: [{ label: 'Model Accuracy', value: '98%' }, { label: 'Global Demand', value: 'High' }, { label: 'Learning Efficiency', value: '97%' }],
     applications: [
@@ -57,7 +57,7 @@ const INTERNSHIPS_DATA = [
     slug: 'cloud-computing',
     image: 'images/CloudComputing.jpeg',
     skills: 'AWS, Azure, Cloud Deployment, DevOps Basics',
-    description: 'Get hands-on with cloud infrastructure, deployment pipelines, and scalable architecture. Work with AWS and Azure services, containerization, and CI/CD workflows.',
+    description: 'Get intensive hands-on experience with modern cloud infrastructure, complex deployment pipelines, and highly scalable architecture. Work extensively with AWS and Azure services, advanced containerization, and fully automated CI/CD workflows.',
     tagline: 'Build and deploy scalable cloud infrastructure. Master the platforms powering modern applications.',
     stats: [{ label: 'Deployment Success', value: '98%' }, { label: 'Enterprise Usage', value: 'Global' }, { label: 'System Reliability', value: '97%' }],
     applications: [
@@ -91,7 +91,7 @@ const INTERNSHIPS_DATA = [
     slug: 'mern-stack',
     image: 'images/mernstack.png',
     skills: 'MongoDB, Express.js, React, Node.js',
-    description: 'Build modern web apps with the MERN stack. Learn MongoDB for data, Express and Node for the server, and React for dynamic, responsive front-ends.',
+    description: 'Build powerful, modern web applications from scratch with the MERN stack. Thoroughly learn MongoDB for robust data storage, Express and Node for scalable backend servers, and React for highly dynamic, beautifully responsive frontend interfaces.',
     tagline: 'Master the most popular JavaScript stack. Build full-featured web applications end-to-end.',
     stats: [{ label: 'App Performance', value: '98%' }, { label: 'Startup Demand', value: 'High' }, { label: 'Deployment Success', value: '97%' }],
     applications: [
@@ -116,7 +116,7 @@ const INTERNSHIPS_DATA = [
     slug: 'full-stack',
     image: 'images/fullstack.jpg',
     skills: 'React, Node.js, Databases, REST APIs',
-    description: 'Become a developer front-end to back-end. Build full-stack applications with React, Node.js, databases, and deploy production-ready projects.',
+    description: 'Become a highly versatile developer mastering both front-end and back-end architectures. Build complete full-stack applications utilizing React, Node.js, and advanced database integrations, and successfully deploy reliable, production-ready projects to live environments.',
     tagline: 'Own the entire stack. Build, deploy, and maintain complete web applications from scratch.',
     stats: [{ label: 'Project Completion', value: '98%' }, { label: 'Industry Demand', value: 'High' }, { label: 'Code Efficiency', value: '97%' }],
     applications: [
@@ -141,7 +141,7 @@ const INTERNSHIPS_DATA = [
     slug: 'generative-ai',
     image: 'images/ai&devlopment.png',
     skills: 'Python, LangChain, LLMs, API Integration',
-    description: 'Build intelligent AI agents that automate workflows, integrate APIs, and reason over data. Learn LangChain, prompt engineering, and autonomous task execution.',
+    description: 'Build incredibly intelligent, autonomous AI agents that effortlessly automate complex workflows, seamlessly integrate with external APIs, and logically reason over vast amounts of data. Master advanced LangChain techniques, sophisticated prompt engineering, and reliable autonomous task execution.',
     tagline: 'Build the future of AI. Create intelligent agents, chatbots, and generative applications.',
     stats: [{ label: 'Automation Accuracy', value: '97%' }, { label: 'Industry Demand', value: 'High' }, { label: 'Task Efficiency', value: '96%' }],
     applications: [
@@ -166,7 +166,7 @@ const INTERNSHIPS_DATA = [
     slug: 'ecommerce',
     image: 'images/ecommerce.png',
     skills: 'Shopify, WooCommerce, Payment Gateways',
-    description: 'Build and launch online stores end-to-end. Learn e-commerce platforms, product management, payment integration, and conversion optimization techniques.',
+    description: 'Successfully build and confidently launch fully functional online stores entirely from end to end. Comprehensively learn industry-leading e-commerce platforms, advanced digital product management, secure payment gateway integrations, and highly effective conversion optimization techniques.',
     tagline: 'Build online stores that sell. Master e-commerce platforms, payments, and conversion optimization.',
     stats: [{ label: 'Store Success Rate', value: '95%' }, { label: 'Startup Demand', value: 'High' }, { label: 'Conversion Efficiency', value: '96%' }],
     applications: [
@@ -191,7 +191,7 @@ const INTERNSHIPS_DATA = [
     slug: 'mean-stack',
     image: 'images/meanstack.png',
     skills: 'MongoDB, Express.js, Angular, Node.js',
-    description: 'Master the MEAN stack — build dynamic web applications using MongoDB, Express.js, Angular, and Node.js with project experience.',
+    description: 'Comprehensively master the powerful MEAN stack by actively building highly dynamic, scalable enterprise web applications utilizing MongoDB, Express.js, Angular, and Node.js with substantial, real-world, hands-on project development experience.',
     tagline: 'Build enterprise-grade applications with Angular and Node.js. Master the MEAN stack end-to-end.',
     stats: [{ label: 'Application Speed', value: '97%' }, { label: 'Developer Demand', value: 'High' }, { label: 'Project Success', value: '100%' }],
     applications: [
@@ -216,7 +216,7 @@ const INTERNSHIPS_DATA = [
     slug: 'mobile-app',
     image: 'images/Mobileapp.png',
     skills: 'React Native, Flutter, iOS, Android',
-    description: 'Create cross-platform mobile apps for iOS and Android. Learn React Native or Flutter, mobile UI patterns, device APIs, and app store deployment.',
+    description: 'Professionally create fully functional cross-platform mobile applications for both iOS and Android ecosystems. Master React Native or Flutter frameworks, modern mobile UI design patterns, essential hardware device APIs, and official app store deployment processes.',
     tagline: 'Build apps for billions of users. Master cross-platform mobile development for iOS and Android.',
     stats: [{ label: 'App Success Rate', value: '97%' }, { label: 'Industry Demand', value: 'High' }, { label: 'User Retention', value: '96%' }],
     applications: [
@@ -241,7 +241,7 @@ const INTERNSHIPS_DATA = [
     slug: 'ui-ux-design',
     image: 'images/uiux.png',
     skills: 'Figma, Wireframing, Prototyping, User Research',
-    description: 'Design intuitive, user-centered digital experiences. Learn wireframing, prototyping in Figma, usability testing and translate research into beautiful interfaces.',
+    description: 'Strategically design highly intuitive, beautifully user-centered digital experiences. Master advanced wireframing, interactive prototyping in Figma, and rigorous usability testing, ultimately translating deep user research into visually stunning, high-converting interfaces.',
     tagline: 'Design experiences people love. Master user research, wireframing, and interactive prototyping.',
     stats: [{ label: 'User Satisfaction', value: '97%' }, { label: 'Design Demand', value: 'High' }, { label: 'Usability Score', value: '96%' }],
     applications: [
@@ -266,7 +266,7 @@ const INTERNSHIPS_DATA = [
     slug: 'web-development',
     image: 'images/webdevelopment.png',
     skills: 'HTML, CSS, JavaScript, React',
-    description: 'Build responsive, modern websites from scratch. Learn front-end fundamentals, component-based architecture with React, and best practices for creating fast, accessible user interfaces.',
+    description: 'Expertly build fully responsive, visually modern websites completely from scratch. Thoroughly learn essential front-end fundamentals, scalable component-based architecture utilizing React, and industry best practices for consistently creating exceptionally fast, universally accessible user interfaces.',
     tagline: 'Build the web. Master HTML, CSS, JavaScript, and React to create stunning, responsive websites.',
     stats: [{ label: 'Website Performance', value: '98%' }, { label: 'Industry Demand', value: 'High' }, { label: 'Project Success', value: '100%' }],
     applications: [
@@ -291,7 +291,7 @@ const INTERNSHIPS_DATA = [
     slug: 'ml-deep-learning',
     image: 'images/ML&DL.png',
     skills: 'Python, TensorFlow, PyTorch, Scikit-learn',
-    description: 'Go deep into ML and DL — build classification models, neural networks, CNNs, RNNs, and transformers. Learn model training, evaluation, and deployment with datasets.',
+    description: 'Go extraordinarily deep into advanced ML and DL concepts — confidently build powerful classification models, complex neural networks, CNNs, RNNs, and state-of-the-art transformers. Master rigorous model training techniques, comprehensive evaluation metrics, and reliable production deployment.',
     tagline: 'From data to intelligence. Master the algorithms and frameworks behind modern AI systems.',
     stats: [{ label: 'Prediction Accuracy', value: '99%' }, { label: 'Industry Usage', value: 'Global' }, { label: 'Project Success', value: '96%' }],
     applications: [
@@ -316,7 +316,7 @@ const INTERNSHIPS_DATA = [
     slug: 'game-development',
     image: 'images/Gaming.png',
     skills: 'Unity, C#, 3D Modeling, Game Mechanics',
-    description: 'Design and develop interactive games from concept to playable build. Learn Unity, C# scripting, 3D asset integration, physics systems, and core game mechanics with advanced complete skills.',
+    description: 'Expertly design and professionally develop highly interactive games, guiding them from initial concept to a fully polished, playable build. Deeply master the Unity engine, advanced C# scripting, seamless 3D asset integration, realistic physics simulation systems, and engaging core gameplay mechanics.',
     tagline: 'Create worlds. Build interactive games with Unity, C#, and professional game design principles.',
     stats: [{ label: 'Game Performance', value: '96%' }, { label: 'Global Market', value: 'Huge' }, { label: 'User Engagement', value: '97%' }],
     applications: [
@@ -341,7 +341,7 @@ const INTERNSHIPS_DATA = [
     slug: 'branding-design',
     image: 'images/Branding&design.png',
     skills: 'Brand Strategy, Visual Identity, Adobe Suite',
-    description: 'Craft compelling brand identities from strategy to execution. Learn logo design, typography, color theory, and how to build cohesive visual systems for businesses.',
+    description: 'Expertly craft truly compelling, highly memorable brand identities spanning from initial strategic planning to final creative execution. Comprehensively learn innovative logo design, advanced typography, impactful color theory, and exactly how to build perfectly cohesive, scalable visual systems for modern businesses.',
     tagline: 'Build brands that stand out. Master visual identity, strategy, and design systems.',
     stats: [{ label: 'Design Quality', value: '97%' }, { label: 'Creative Demand', value: 'High' }, { label: 'Client Satisfaction', value: '96%' }],
     applications: [
@@ -366,7 +366,7 @@ const INTERNSHIPS_DATA = [
     slug: 'seo',
     image: 'images/seo.jpg',
     skills: 'Keyword Research, On-Page SEO, Link Building',
-    description: 'Drive organic traffic through proven SEO strategies. Learn keyword research, technical SEO, on-page optimization, link building, and analytics reporting.',
+    description: 'Consistently drive massive amounts of highly targeted organic traffic utilizing extensively proven, data-driven SEO strategies. Deeply learn comprehensive keyword research, advanced technical SEO tactics, flawless on-page optimization, powerful authoritative link building, and detailed analytics reporting.',
     tagline: 'Rank higher. Drive organic traffic with proven SEO strategies and data-driven optimization.',
     stats: [{ label: 'Ranking Improvement', value: '98%' }, { label: 'Business Demand', value: 'High' }, { label: 'Traffic Growth', value: '97%' }],
     applications: [
@@ -391,7 +391,7 @@ const INTERNSHIPS_DATA = [
     slug: 'digital-marketing',
     image: 'images/digitalmarketinglogo.jpg',
     skills: 'SEO, Meta Ads, Analytics, Content Strategy',
-    description: 'Master digital marketing channels — from search engine optimization and paid ads to social media strategy and analytics management.',
+    description: 'Comprehensively master all critical digital marketing channels — from advanced search engine optimization techniques and highly profitable paid ad campaigns to incredibly engaging social media strategy and rigorous, data-driven analytics performance management.',
     tagline: 'Drive growth online. Master paid ads, social media, analytics, and data-driven marketing strategies.',
     stats: [{ label: 'Campaign Success', value: '96%' }, { label: 'Market Demand', value: 'High' }, { label: 'Engagement Rate', value: '97%' }],
     applications: [
@@ -644,8 +644,8 @@ function renderInternshipDetail(data) {
         <h2>Ready to Start Your ${data.name} Journey?</h2>
         <p>Apply now and gain hands-on experience with real projects and industry mentorship.</p>
         <div style="display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center;margin-top:2rem;">
-          <a href="javascript:void(0)" onclick="openInternshipModal('${data.name}')" class="btn internship-apply-btn" style="padding:1rem 3rem;font-size:1.1rem;min-width:220px;">Apply Now</a>
-          <a href="#internships" class="btn btn-white-outline" style="padding:1rem 3rem;font-size:1.1rem;min-width:220px;">View All Internships</a>
+          <a href="javascript:void(0)" onclick="openInternshipModal('${data.name}')" class="btn" style="padding:1.25rem 3rem;font-size:1.15rem;font-weight:700;border:2px solid white;border-radius:12px;background:transparent;color:white;box-shadow:0 0 10px rgba(255,255,255,0.1), 0 0 20px rgba(255,255,255,0.05);text-transform:none;letter-spacing:0.5px;min-width:220px;">Apply Now</a>
+          <a href="#internships" class="btn" style="padding:1.25rem 3rem;font-size:1.15rem;font-weight:700;border:2px solid white;border-radius:12px;background:transparent;color:white;box-shadow:0 0 10px rgba(255,255,255,0.1), 0 0 20px rgba(255,255,255,0.05);text-transform:none;letter-spacing:0.5px;min-width:220px;">View All Internships</a>
         </div>
       </div>
     </section>
@@ -724,8 +724,8 @@ function renderServiceDetail(data) {
         <h2>Ready to Get Started with ${data.name}?</h2>
         <p>Let's discuss how our ${data.name.toLowerCase()} solutions can transform your business and drive measurable growth.</p>
         <div style="display:flex;flex-wrap:wrap;gap:1.5rem;justify-content:center;">
-          <a href="javascript:void(0)" onclick="openEnquiryModal('${data.name}')" class="btn" style="padding:1.25rem 3rem;font-size:1.15rem;font-weight:700;border:3px solid white;border-radius:12px;background:transparent;color:white;box-shadow:0 0 10px rgba(255,255,255,0.4), 0 0 20px rgba(255,255,255,0.2);text-transform:none;letter-spacing:0.5px;">Get Started Now</a>
-          <a href="#services" class="btn" style="padding:1.25rem 3rem;font-size:1.15rem;font-weight:700;border:3px solid white;border-radius:12px;background:transparent;color:white;box-shadow:0 0 10px rgba(255,255,255,0.4), 0 0 20px rgba(255,255,255,0.2);text-transform:none;letter-spacing:0.5px;">View All Services</a>
+          <a href="javascript:void(0)" onclick="openEnquiryModal('${data.name}')" class="btn" style="padding:1.25rem 3rem;font-size:1.15rem;font-weight:700;border:2px solid white;border-radius:12px;background:transparent;color:white;box-shadow:0 0 10px rgba(255,255,255,0.1), 0 0 20px rgba(255,255,255,0.05);text-transform:none;letter-spacing:0.5px;">Get Started Now</a>
+          <a href="#services" class="btn" style="padding:1.25rem 3rem;font-size:1.15rem;font-weight:700;border:2px solid white;border-radius:12px;background:transparent;color:white;box-shadow:0 0 10px rgba(255,255,255,0.1), 0 0 20px rgba(255,255,255,0.05);text-transform:none;letter-spacing:0.5px;">View All Services</a>
         </div>
       </div>
     </section>
@@ -2007,7 +2007,8 @@ function renderSolutionDetail(data) {
 
 function initProjectCarousel() {
   const carousel = document.querySelector('[data-project-carousel]');
-  if (!carousel) return;
+  if (!carousel || carousel.dataset.initialized) return;
+  carousel.dataset.initialized = 'true';
 
   const track = carousel.querySelector('.project-carousel-track');
   const slides = Array.from(track.children);
@@ -2105,6 +2106,66 @@ function initProjectCarousel() {
   window.addEventListener('resize', updateCarousel);
   // Initial update
   setTimeout(updateCarousel, 300);
+
+  // Auto-slide functionality
+  let autoSlideTimer = null;
+  let inactivityTimer = null;
+  let isHovered = false;
+
+  function nextSlide() {
+    const itemsToShow = window.innerWidth >= 1024 ? 3 : (window.innerWidth >= 768 ? 2 : 1);
+    const maxIndex = Math.max(0, slides.length - itemsToShow);
+    if (currentIndex < maxIndex) {
+      currentIndex++;
+    } else {
+      currentIndex = 0; // Loop back to start
+    }
+    updateCarousel();
+  }
+
+  function startAutoSlide() {
+    clearInterval(autoSlideTimer);
+    autoSlideTimer = setInterval(nextSlide, 2000);
+  }
+
+  function stopAutoSlide() {
+    clearInterval(autoSlideTimer);
+  }
+
+  function resetInactivity() {
+    stopAutoSlide();
+    clearTimeout(inactivityTimer);
+    if (!isHovered) {
+      inactivityTimer = setTimeout(startAutoSlide, 6000);
+    }
+  }
+
+  carousel.addEventListener('mouseenter', () => {
+    isHovered = true;
+    stopAutoSlide();
+  });
+
+  carousel.addEventListener('mouseleave', () => {
+    isHovered = false;
+    resetInactivity();
+  });
+
+  carousel.addEventListener('touchstart', () => {
+    isHovered = true;
+    stopAutoSlide();
+  }, { passive: true });
+
+  carousel.addEventListener('touchend', () => {
+    isHovered = false;
+    resetInactivity();
+  });
+
+  // Reset inactivity when buttons are clicked to prevent immediate auto-slide
+  newNextBtn.addEventListener('click', resetInactivity);
+  newPrevBtn.addEventListener('click', resetInactivity);
+
+  // Start auto-slide initially
+  startAutoSlide();
 }
 
 // Add call to DOMContentLoaded if not already there

@@ -74,7 +74,7 @@ WhatsApp: +91 8610935715"""
         server.starttls(context=context)
         server.login(SMTP_EMAIL, SMTP_PASSWORD)
         server.sendmail(SMTP_EMAIL, to_email, msg.as_string())
-    print(f'[SMTP] ✅ Auto-reply sent to {to_email}')
+    print(f'[SMTP] [SUCCESS] Auto-reply sent to {to_email}')
 
 
 class RangeRequestHandler(http.server.SimpleHTTPRequestHandler):
@@ -106,10 +106,10 @@ class RangeRequestHandler(http.server.SimpleHTTPRequestHandler):
                 self._json(200, {'ok': True, 'message': 'Email sent successfully'})
 
             except smtplib.SMTPAuthenticationError:
-                print('[SMTP] ❌ Auth failed — check SMTP_PASSWORD in server.py')
+                print('[SMTP] [ERROR] Auth failed — check SMTP_PASSWORD in server.py')
                 self._json(500, {'ok': False, 'error': 'SMTP auth failed. Check App Password.'})
             except Exception as ex:
-                print(f'[SMTP] ❌ Error: {ex}')
+                print(f'[SMTP] [ERROR] Error: {ex}')
                 self._json(500, {'ok': False, 'error': str(ex)})
         else:
             self.send_error(404)
@@ -182,6 +182,6 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8001))
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
     server = http.server.ThreadingHTTPServer(('0.0.0.0', port), RangeRequestHandler)
-    print(f'✅ Serving at http://0.0.0.0:{port}')
-    print(f'📧 SMTP endpoint ready: POST http://0.0.0.0:{port}/send-email')
+    print(f'[SUCCESS] Serving at http://localhost:{port}')
+    print(f'[INFO] SMTP endpoint ready: POST http://localhost:{port}/send-email')
     server.serve_forever()
