@@ -5021,3 +5021,133 @@ a {
     top: calc(100% + 3.5rem) !important; /* Positioned at the exact end of the line */
   }
 }
+
+/* Restoring and optimizing carousel navigation buttons for mobile view */
+@media (max-width: 768px) {
+  .carousel-nav {
+    display: flex !important;
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+    top: auto !important;
+    bottom: -4rem !important; /* Move buttons below the carousel on mobile */
+  }
+
+  .carousel-nav-prev {
+    left: calc(50% - 3.5rem) !important;
+  }
+
+  .carousel-nav-next {
+    right: calc(50% - 3.5rem) !important;
+    background: var(--primary) !important; /* Making next button prominent as seen in request */
+    color: #fff !important;
+    border-color: var(--primary) !important;
+  }
+
+  .creative-work-section {
+    padding-bottom: 8rem !important; /* Extra space for the buttons below */
+  }
+
+  .project-carousel {
+    padding: 0 !important;
+  }
+}
+
+/* Moving carousel navigation buttons back to the sides for mobile view */
+@media (max-width: 768px) {
+  .carousel-nav {
+    top: 50% !important;
+    bottom: auto !important;
+    transform: translateY(-50%) !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    z-index: 20 !important;
+  }
+
+  .carousel-nav-prev {
+    left: 0.5rem !important;
+  }
+
+  .carousel-nav-next {
+    right: 0.5rem !important;
+  }
+
+  .creative-work-section {
+    padding-bottom: 4rem !important; /* Reverting extra padding */
+  }
+}
+
+/* Final 'neat' side positioning for carousel navigation on mobile */
+@media (max-width: 768px) {
+  .project-carousel {
+    padding: 0 3rem !important; /* Creates clear side gutters for buttons */
+    margin-top: 2rem !important;
+  }
+
+  .carousel-nav {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .carousel-nav-prev {
+    left: 0.25rem !important;
+  }
+
+  .carousel-nav-next {
+    right: 0.25rem !important;
+  }
+
+  .project-carousel-viewport {
+    margin: 0 !important; /* Ensure viewport fits within the gutters */
+  }
+}
+
+/* Making internship detail buttons uniform on mobile */
+@media (max-width: 480px) {
+  .internship-btn-group {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .internship-btn-group .btn {
+    width: 100% !important;
+    padding: 1rem !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Fixing alignment for 'Don't Hesitate' section on mobile */
+@media (max-width: 768px) {
+  .about-enquiry-section {
+    text-align: center !important;
+  }
+
+  .about-enquiry-section p {
+    text-align: center !important;
+  }
+
+  .about-contact-info {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1.5rem !important;
+    margin-bottom: 3rem !important;
+  }
+
+  .about-contact-item {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 0.5rem !important;
+  }
+
+  .about-contact-item p {
+    word-break: break-word !important;
+    max-width: 100% !important;
+  }
+
+  .about-enquiry-form-card {
+    padding: 1.5rem !important;
+    margin: 0 auto !important;
+  }
+}
