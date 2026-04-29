@@ -1544,7 +1544,7 @@ h6 {
   position: absolute;
   top: 37px;
   left: calc(50% + 42px);
-  width: calc(100% - 84px);
+  width: calc(100% - 94px);
   height: 2px;
   background: rgba(255, 255, 255, 0.25);
   z-index: 1;
@@ -1577,7 +1577,7 @@ h6 {
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .process-steps {
     flex-direction: column;
     gap: 3rem;
@@ -1587,12 +1587,13 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0;
   }
   .process-connector {
     width: 2px;
-    height: calc(100% + 3rem - 90px);
+    height: calc(3rem - 24px);
     left: 50%;
-    top: 75px;
+    top: calc(100% + 10px);
     transform: translateX(-50%);
   }
   .process-connector::after {
@@ -4510,5 +4511,184 @@ a {
 
   .logo-sub {
     font-size: 0.5rem;
+  }
+}
+/* ====================================================
+   MOBILE RESPONSIVENESS OVERRIDES (<= 768px)
+   ==================================================== */
+
+@media (max-width: 768px) {
+  /* Global Overflow Prevention */
+  html, body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  /* Section Padding */
+  .section, .solution-section, .legal-content-section {
+    padding: 3.5rem 1.25rem;
+  }
+
+  /* Hero Section Typography */
+  .hero h1, .home-hero h1, .internship-hero h1, .legal-hero h1 {
+    font-size: clamp(2rem, 10vw, 3rem) !important;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-hero-content p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    max-width: 100%;
+  }
+
+  /* Grid Gap Overrides */
+  .grid-2, .grid-3, .grid-4 {
+    gap: 1.5rem !important;
+  }
+
+  /* Marquee Section Fixes */
+  .marquee-text {
+    font-size: 1.125rem;
+    letter-spacing: 0.05em;
+    word-spacing: 0.5rem;
+  }
+
+  /* About Section Specifics */
+  .about-section .grid-2 {
+    gap: 2.5rem !important;
+  }
+
+  .stat-item {
+    padding-left: 1rem;
+  }
+
+  .stat-number {
+    font-size: 1.75rem;
+  }
+
+  /* Development Process Section */
+  .process-steps {
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+
+  .process-step {
+    margin-bottom: 2rem;
+  }
+
+  .process-circle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .process-circle svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* Creative Work Carousel */
+  .project-carousel {
+    padding: 0 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .project-carousel-viewport {
+    margin: 0;
+  }
+
+  .carousel-nav {
+    display: none;
+  }
+
+  /* AI Development Section */
+  .skill-tag {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  /* Footer Bottom */
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+
+  .footer-legal-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  /* Forms & Cards */
+  .contact-card, .about-enquiry-form-card {
+    padding: 2rem 1.25rem;
+  }
+
+  /* Header Branding */
+  .header-inner {
+    padding: 0 1rem;
+  }
+
+  .logo-img {
+    height: 2rem;
+  }
+
+  .logo-name-img {
+    height: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-hero h1 {
+    font-size: 2.25rem !important;
+  }
+
+  .home-hero-buttons {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .home-hero-buttons .btn {
+    width: 100%;
+    min-width: 100%;
+  }
+  
+  .badge {
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    padding: 0.4rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-impact-grid, .service-industries-grid, .why-grid, .ai-cards-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-deliverables-grid, .profile-stats, .profile-projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .career-track-steps {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .career-track-connector {
+    width: 2px;
+    height: calc(3rem - 10px);
+    left: 50%;
+    top: calc(100% + 5px);
+    transform: translateX(-50%);
+  }
+
+  .career-track-step:last-child .career-track-connector {
+    display: none;
   }
 }
