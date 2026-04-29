@@ -20,6 +20,28 @@
   box-sizing: border-box;
 }
 
+/* GenZova - Pure HTML/CSS/JS - No React, No Wix */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Sora:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #2563eb;
+  --primary-foreground: #FFFFFF;
+  --secondary: #0f172a;
+  --secondary-foreground: #FFFFFF;
+  --accent: #3b82f6;
+  --background: #ffffff;
+  --foreground: #1e293b;
+  --muted-grey: #64748b;
+  --destructive: #E53935;
+  --card-bg: #f8fafc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -2953,18 +2975,40 @@ a {
 
 .about-contact-item {
   display: flex;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-.about-contact-item svg {
+.about-contact-item .contact-icon {
   flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background: rgba(37, 99, 235, 0.08);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
 }
 
-.about-contact-item p {
+.about-contact-item:hover .contact-icon {
+  background: var(--primary);
+}
+
+.about-contact-item:hover .contact-icon svg {
+  stroke: white;
+}
+
+.about-contact-item .contact-text p {
   color: var(--text);
   line-height: 1.6;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.about-contact-item .contact-text p+p {
+  margin-top: 0.25rem;
 }
 
 /* Enquiry Form Card */
@@ -4588,19 +4632,7 @@ a {
     height: 24px;
   }
 
-  /* Creative Work Carousel */
-  .project-carousel {
-    padding: 0 1.25rem;
-    margin-top: 2rem;
-  }
-
-  .project-carousel-viewport {
-    margin: 0;
-  }
-
-  .carousel-nav {
-    display: none;
-  }
+  /* Creative Work Carousel - consolidated at the end of file */
 
   /* AI Development Section */
   .skill-tag {
@@ -5022,84 +5054,56 @@ a {
   }
 }
 
-/* Restoring and optimizing carousel navigation buttons for mobile view */
+/* Consolidated and optimized carousel navigation for mobile view */
 @media (max-width: 768px) {
+  .project-carousel {
+    padding: 0 2rem !important; /* Create space for buttons on sides */
+    position: relative !important;
+    overflow: visible !important;
+    margin-top: 1.5rem !important;
+  }
+
   .carousel-nav {
-    display: flex !important;
-    width: 2.75rem !important;
-    height: 2.75rem !important;
-    top: auto !important;
-    bottom: -4rem !important; /* Move buttons below the carousel on mobile */
+    display: flex !important; /* Ensure they are always visible */
+    top: 50% !important;
+    bottom: auto !important;
+    transform: translateY(-50%) !important;
+    width: 3rem !important; /* Touch-friendly size */
+    height: 3rem !important;
+    z-index: 100 !important;
+    background: #fff !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+    border: 1px solid rgba(37, 99, 235, 0.15) !important;
   }
 
   .carousel-nav-prev {
-    left: calc(50% - 3.5rem) !important;
+    left: 0 !important;
   }
 
   .carousel-nav-next {
-    right: calc(50% - 3.5rem) !important;
-    background: var(--primary) !important; /* Making next button prominent as seen in request */
+    right: 0 !important;
+    background: var(--primary) !important;
     color: #fff !important;
     border-color: var(--primary) !important;
   }
 
-  .creative-work-section {
-    padding-bottom: 8rem !important; /* Extra space for the buttons below */
+  .carousel-nav svg {
+    width: 22px !important; /* Slightly larger for better visibility */
+    height: 22px !important;
   }
 
-  .project-carousel {
-    padding: 0 !important;
-  }
-}
-
-/* Moving carousel navigation buttons back to the sides for mobile view */
-@media (max-width: 768px) {
-  .carousel-nav {
-    top: 50% !important;
-    bottom: auto !important;
-    transform: translateY(-50%) !important;
-    width: 2.5rem !important;
-    height: 2.5rem !important;
-    z-index: 20 !important;
-  }
-
-  .carousel-nav-prev {
-    left: 0.5rem !important;
-  }
-
-  .carousel-nav-next {
-    right: 0.5rem !important;
-  }
-
-  .creative-work-section {
-    padding-bottom: 4rem !important; /* Reverting extra padding */
-  }
-}
-
-/* Final 'neat' side positioning for carousel navigation on mobile */
-@media (max-width: 768px) {
-  .project-carousel {
-    padding: 0 3rem !important; /* Creates clear side gutters for buttons */
-    margin-top: 2rem !important;
-  }
-
-  .carousel-nav {
-    width: 2.25rem !important;
-    height: 2.25rem !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
-    border: 1px solid rgba(0, 0, 0, 0.05) !important;
-  }
-
-  .carousel-nav-prev {
-    left: 0.25rem !important;
-  }
-
-  .carousel-nav-next {
-    right: 0.25rem !important;
+  /* Ensure card content is readable and fits within new carousel width */
+  .project-carousel-card {
+    padding: 0 0.5rem !important;
   }
 
   .project-carousel-viewport {
-    margin: 0 !important; /* Ensure viewport fits within the gutters */
+    overflow: hidden !important;
+    border-radius: 12px !important;
+  }
+
+  .creative-work-section {
+    padding-bottom: 4rem !important;
   }
 }
 
@@ -5117,7 +5121,7 @@ a {
   }
 }
 
-/* Fixing alignment for 'Don't Hesitate' section on mobile */
+/* Optimized 'Don't Hesitate' section for mobile */
 @media (max-width: 768px) {
   .about-enquiry-section {
     text-align: center !important;
@@ -5125,29 +5129,33 @@ a {
 
   .about-enquiry-section p {
     text-align: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 
   .about-contact-info {
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    gap: 1.5rem !important;
+    gap: 1.25rem !important;
     margin-bottom: 3rem !important;
+    max-width: 400px;
+    margin: 0 auto 3rem auto;
   }
 
   .about-contact-item {
-    flex-direction: column !important;
-    text-align: center !important;
-    gap: 0.5rem !important;
+    width: 100%;
+    justify-content: flex-start !important;
+    text-align: left !important;
+    background: white;
+    padding: 1rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   }
 
-  .about-contact-item p {
-    word-break: break-word !important;
-    max-width: 100% !important;
-  }
-
-  .about-enquiry-form-card {
-    padding: 1.5rem !important;
-    margin: 0 auto !important;
+  .about-contact-item .contact-text p {
+    font-size: 0.9rem !important;
+    word-break: break-all !important;
   }
 }
